@@ -1,0 +1,170 @@
+.Principle {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.Principle section {
+    background-color: white;
+    width: 80vw;
+    margin: 5vh 0 5vh 10vw;
+    /* margin: 5vh 0 5vh 11vw; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Principle section img {
+    height: 37vh;
+    width: 37vh;
+    margin-left: 2vw;
+}
+
+.ourPrinciplesHeading {
+    font-size: 1.4rem;
+    color: #0A66C2;
+    font-weight: bolder;
+}
+
+.ourPrinciplesTop p,
+.ourPrinciplesBottom p {
+    font-size: 0.65rem;
+    color: #333333;
+}
+
+.ourPrinciplesTop {
+    margin: 2vh 0 3vh 0;
+}
+
+.ourPrinciples {
+    /* border: 1px solid black; */
+    width: 15vw;
+    margin-right: 4vw;
+}
+
+/* responsive for 1440px width */
+@media(width<1441px) {
+    .Principle section img {
+        height: 33vh;
+        width: 33vh;
+        margin-left: 2vw;
+    }
+
+    .ourPrinciples {
+        /* border: 1px solid black; */
+        width: 17vw;
+        margin-right: 4vw;
+    }
+}
+
+/* responsive for width 1024px */
+@media(width<1025px) {
+    .Principle section img {
+        height: 27vh;
+        width: 27vh;
+        margin-left: 1.5vw;
+    }
+
+    .ourPrinciplesHeading {
+        font-size: 1.2rem;
+    }
+
+    .ourPrinciplesTop p,
+    .ourPrinciplesBottom p {
+        font-size: 0.55rem;
+    }
+
+    .ourPrinciplesTop {
+        margin: 1vh 0 2vh 0;
+    }
+
+    .ourPrinciples {
+        /* border: 1px solid black; */
+        width: 20vw;
+        margin-right: 3vw;
+    }
+}
+
+
+/* tablet responsive is here */
+@media(width<769px) {
+    .Principle section {
+        width: auto;
+        margin: 5vh 25px 5vh 25px;
+        /* margin: 5vh 0 5vh 11vw; */
+        /* border: 1px solid black; */
+    }
+
+    .ourPrinciples {
+        /* border: 1px solid black; */
+        margin: 0;
+        width: 30vw;
+    }
+
+    .ourPrinciplesHeading {
+        font-size: 0.95rem;
+    }
+
+    .ourPrinciplesTop p,
+    .ourPrinciplesBottom p {
+        font-size: 0.5rem;
+    }
+
+    .Principle section img {
+        height: 24vh;
+        width: 24vh;
+        margin-left: 1.55vw;
+    }
+}
+
+
+/* mobile responsive is here */
+
+@media (width<426px) {
+    .Principle section {
+        width: auto;
+        margin: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+
+    .ourPrinciples {
+        width: auto;
+    }
+
+    .ourPrinciplesTop p,
+    .ourPrinciplesBottom p {
+        font-size: 0.75rem;
+    }
+
+    .Principle section img {
+        margin: 0;
+        height: 58vh;
+        width: 58vh;
+        margin-top: 2vh;
+    }
+}
+
+@media (width<376px){
+    .Principle section img {
+        margin: 0;
+        height: 50.5vh;
+        width: 50.5vh;
+        margin-top: 2vh;
+    }
+}
+
+
+@media (width<321px){
+    .Principle section img {
+        margin: 0;
+        height: 42.5vh;
+        width: 42.5vh;
+        margin-top: 2vh;
+    }
+}

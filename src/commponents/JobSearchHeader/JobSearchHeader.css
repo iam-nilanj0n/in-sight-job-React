@@ -1,0 +1,583 @@
+.JobSearchHeader {
+    height: 85vh;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #0A66C2;
+}
+
+header section {
+    width: 80vw;
+    margin: 5vh 0 5vh 10vw;
+    background-color: #0A66C2;
+    /* margin: 5vh 0 5vh 11vw; */
+    /* border: 1px solid black; */
+}
+
+.logoSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.leftLogoSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.findJobs {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.findJobs span {
+    margin: 0 2vw;
+}
+
+.rightLogoSection {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21.5vw;
+}
+
+.rightLogoSection div {
+    height: 6vh;
+    width: 2px;
+    background-color: white;
+    margin: 0 2vw 0 2vw;
+}
+
+.dropDown {
+    height: 20px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1vh 3.8vw;
+}
+
+.topHr,
+.bottomHr {
+    height: 4px;
+    width: 40px;
+    background-color: white;
+}
+
+.middleHr {
+    height: 4px;
+    width: 30px;
+    margin: 4px 0 4px 10px;
+    background-color: white;
+}
+
+/* headingSection is here */
+.headingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0 5vh 0;
+}
+
+.heading1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.heading1 span {
+    color: #F6EEA1;
+}
+
+.heading1Bottom {
+    margin-top: -1vh;
+}
+
+.heading2 {
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 300;
+}
+
+/* searchSection is here */
+
+.searchSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 10vh 0 0 0;
+}
+
+.bestCareer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid black; */
+    width: 14vw;
+}
+
+.What,
+.Experience,
+.Where {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5vh;
+    /* border: 1px solid black; */
+}
+
+.What label,
+.Experience label,
+.Where label {
+    margin: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.What label,
+.Where label {
+    margin-left: 1vw;
+}
+
+.Experience label {
+    margin-left: 2vw;
+}
+
+.whatInput,
+.whereInput {
+    padding: 1.5vh 1vw;
+    height: auto;
+    width: 17vw;
+    font-weight: 100;
+    font-size: 0.8rem;
+    border: 0;
+    border-radius: 3vh;
+    margin: 0;
+    color: #AEAEAE;
+}
+
+.experienceInput {
+    padding: 1.5vh 1vw;
+    height: auto;
+    width: 8vw;
+    font-weight: 100;
+    font-size: 0.8rem;
+    border: 0;
+    border-radius: 3vh;
+    margin: 0 1vw;
+    color: #AEAEAE;
+}
+
+.searchNowButton {
+    padding: 10px 2.5vw;
+    font-weight: bolder;
+    color: black;
+    background-color: #F6E75C;
+    border: 0;
+    height: 6vh;
+    border-radius: 3vh;
+    font-size: 0.8rem;
+    width: auto;
+    margin: 0 0 0 5.7vw;
+}
+
+/* differentJobs section is here */
+.differentJobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.differentJobs p {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.informationTechnology {
+    display: flex;
+    flex-direction: column;
+}
+
+.differentJobsSeparate {
+    height: 8vh;
+    width: 1px;
+    background-color: white;
+    margin: 0 1.25vw;
+}
+
+/* responsive for 1440px is here */
+@media(width<1441px) {
+    header section {
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .findJobs {
+        font-size: 13px;
+    }
+
+    .logoPic {
+        width: 16vw;
+    }
+
+    .searchNowButton {
+        margin: 0 0 0 5.5vw;
+    }
+
+    .rightLogoSection p {
+        font-size: 13px;
+    }
+
+    .rightLogoSection {
+        margin-left: 23.55vw;
+    }
+}
+
+/* responsive for 1024px screen width */
+@media(width<1025px) {
+    .JobSearchHeader {
+        height: auto;
+    }
+
+    header section {
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .logoPic {
+        width: 14vw;
+    }
+
+    .findJobs {
+        font-size: 10px;
+    }
+
+    .rightLogoSection {
+        margin: 0 0 0 24vw;
+    }
+
+    .rightLogoSection div {
+        margin: 0 1.5vw;
+    }
+
+    .rightLogoSection p {
+        font-size: 10px;
+    }
+
+    .dropDown {
+        margin: 0 0 0 3.5vw;
+    }
+
+    .heading1 {
+        font-size: 1.4rem;
+    }
+
+    .heading2 {
+        font-size: 0.6rem;
+    }
+
+    .bestCareer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        /* border: 1px solid black; */
+        width: 14vw;
+        margin-right: 2.5vh;
+    }
+
+    .bestCareer p,
+    .bestCareer b {
+        font-size: 0.75rem;
+    }
+
+    .What {
+        padding-left: 1vh;
+    }
+
+    .What label,
+    .Where label {
+        font-size: 0.75rem;
+        margin-left: 1vw;
+    }
+
+    .Experience label {
+        font-size: 0.75rem;
+        margin-left: 2vw;
+    }
+
+    .whatInput,
+    .whereInput {
+        padding: 1.5vh 1vw;
+        height: auto;
+        width: 16vw;
+        font-size: 0.55rem;
+    }
+
+    .experienceInput {
+        padding: 1.5vh 1vw;
+        height: auto;
+        width: 9vw;
+        font-size: 0.55rem;
+        margin: 0 1vw;
+    }
+
+    .searchNowButton {
+        font-size: 0.75rem;
+        width: 13vw;
+        margin: 0 0 1vh 3.5vw;
+    }
+
+    .differentJobs p {
+        font-size: 0.6rem;
+    }
+}
+
+/* tablet resonsive is here */
+@media(width<769px) {
+    .JobSearchHeader {
+        height: auto;
+    }
+
+    header section {
+        height: auto;
+        width: auto;
+        /* border: 1px solid black; */
+        margin: 5vh 25px 5vh 25px;
+    }
+
+    .logoPic {
+        width: 25vw;
+    }
+
+    .findJobs {
+        display: none;
+    }
+
+    .rightLogoSection {
+        display: none;
+    }
+
+    .dropDown {
+        margin: 0 0 1vh 61.75vw;
+    }
+
+    .headingSection {
+        margin: 5vh 0 0 0;
+    }
+
+    .heading1 {
+        font-size: 1.65rem;
+    }
+
+    .heading2 {
+        text-align: center;
+    }
+
+    .searchSection {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .bestCareer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 4vh 0;
+        width: auto;
+    }
+
+    .bestCareer b {
+        margin: 0 2vw;
+    }
+
+    .whatInput,
+    .whereInput,
+    .experienceInput {
+        width: 35vw;
+        padding: 1vh 2vw 1vh 2vw;
+    }
+
+    .Experience label,
+    .What label,
+    .Where label {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .middleHr {
+        height: 4px;
+        width: 40px;
+        margin: 4px 0 4px 0;
+    }
+
+    .searchNowButton {
+        margin: 0;
+        width: 30vw;
+    }
+
+    .differentJobs {
+        margin-top: 8vh;
+    }
+}
+
+/* mobile responsive is here */
+
+@media (width<426px) {
+    .JobSearchHeader {
+        height: auto;
+    }
+
+    header section {
+        height: auto;
+        width: auto;
+        margin: 16px 16px 16px 16px;
+        /* margin: 5vh 0 5vh 11vw; */
+        /* border: 1px solid black; */
+    }
+
+    .logoPic {
+        width: 30vw;
+    }
+
+    .findJobs {
+        display: none;
+    }
+
+    .rightLogoSection {
+        display: none;
+    }
+
+    .dropDown {
+        margin-left: 51.5vw;
+    }
+
+    .headingSection {
+        margin: 4vh 0 2vh 0;
+    }
+
+    .heading1 {
+        font-size: 1.2rem;
+    }
+
+    .heading2 {
+        font-size: 0.6rem;
+        text-align: center;
+        margin-top: 1vh;
+    }
+
+    .searchSection {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .bestCareer {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        font-size: 0.8rem;
+        margin-bottom: 2vh;
+    }
+
+    .bestCareer b {
+        margin: 0 1.5vw;
+    }
+
+    .What,
+    .Experience,
+    .Where {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2vh 0;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+
+    .whatInput,
+    .whereInput,
+    .experienceInput {
+        width: 50vw;
+        font-size: 0.75rem;
+        padding: 1vh 2vw;
+    }
+
+    .What label,
+    .Where label,
+    .Experience label {
+        margin-left: 1vw;
+        font-size: 0.9rem;
+    }
+
+    .searchNowButton {
+        width: 55vw;
+        margin: 1vh 0 0 0;
+    }
+
+    .differentJobs {
+        margin: 5vh 0 0 0;
+    }
+
+    .differentJobs p {
+        font-size: 0.6rem;
+    }
+
+    .differentJobsSeparate {
+        height: 6vh;
+        margin: 0 2vw;
+    }
+}
+
+@media(width<376px) {
+    .dropDown {
+        margin-left: 49vw;
+    }
+    .whatInput,
+    .whereInput,
+    .experienceInput {
+        width: 55vw;
+    }
+    .searchNowButton{
+        width: 59vw;
+    }
+}
+
+@media(width<321px) {
+    .logoPic {
+        width: 35vw;
+    }
+
+    .heading1 {
+        font-size: 1rem;
+    }
+
+    .dropDown {
+        margin-left: 41vw;
+    }
+
+    .whatInput,
+    .whereInput,
+    .experienceInput {
+        width: 65vw;
+    }
+    .searchNowButton{
+        width: 69vw;
+    }
+    
+}

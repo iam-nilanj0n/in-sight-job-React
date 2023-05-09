@@ -1,0 +1,164 @@
+.CandidateEmployerSection {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    background-color: #030A12;
+}
+
+.CandidateEmployerSection section {
+    background-color: #030A12;
+    width: 80vw;
+    margin: 5vh 0 5vh 10vw;
+    /* margin: 5vh 0 5vh 11vw; */
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.candidateLeftSection p {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+}
+
+.candidateSeparate {
+    height: 40vh;
+    width: 1px;
+    background-color: white;
+    margin: 0 3.5vw;
+}
+
+.candidatePart p,
+.employerPart p {
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.candidatePart p span,
+.employerPart p span {
+    font-weight: bolder;
+}
+
+.candidatePartHeading,
+.employerPartHeading {
+    font-weight: bolder;
+    width: 6.5vw;
+    border-bottom: 2px solid white;
+    padding-bottom: 1vh;
+    margin-bottom: 3vh;
+}
+
+.employerPart {
+    margin-left: 10vw;
+}
+
+/* responsive for width 1024px*/
+@media(width<1025px) {
+
+    .candidateLeftSection p {
+        font-size: 1.1rem;
+        word-spacing: 1px;
+    }
+
+    .candidatePart p,
+    .employerPart p {
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+    }
+
+    .employerPart {
+        margin-left: 5vw;
+    }
+}
+
+
+/* tablet responsive is here */
+@media(width<769px) {
+    .CandidateEmployerSection section {
+        width: auto;
+        margin: 5vh 25px 5vh 25px;
+        /* margin: 5vh 0 5vh 11vw; */
+        /* border: 1px solid white; */
+    }
+
+    .candidateLeftSection p {
+        font-size: 1rem;
+    }
+
+    .candidatePart p,
+    .employerPart p {
+        font-size: 0.6rem;
+        line-height: 1.1rem;
+    }
+
+    .candidatePart p span,
+    .employerPart p span {
+        font-weight: bolder;
+    }
+
+    .candidatePartHeading,
+    .employerPartHeading {
+        width: 8vw;
+        border-bottom: 2px solid white;
+    }
+
+    .employerPart {
+        margin-left: 5vw;
+    }
+}
+
+/* mobile responsive is here */
+
+@media(width<426px) {
+    .CandidateEmployerSection section {
+        height: auto;
+        width: auto;
+        margin: 16px;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .candidateLeftSection p {
+        word-spacing: 0;
+    }
+
+    .candidateSeparate {
+        display: none;
+    }
+
+    .candidatePartHeading,
+    .employerPartHeading {
+        font-weight: bolder;
+        width: 20vw;
+        border-bottom: 2px solid white;
+        padding-bottom: 1vh;
+        margin: 5vh 0 3vh 0;
+    }
+
+    .candidatePart p,
+    .employerPart p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .employerPart {
+        margin: 0;
+    }
+}
+
+@media(width<321px){
+    .candidateLeftSection p {
+        font-size: 0.8rem;
+    }
+
+    .candidatePart p,
+    .employerPart p {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+}

@@ -1,0 +1,195 @@
+.LiveJobSection {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #F5F5F5;
+}
+
+.LiveJobSection section {
+    background-color: #F5F5F5;
+    width: 80vw;
+    margin: 5vh 0 5vh 10vw;
+    /* margin: 5vh 0 5vh 11vw; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* liveJobsAndCandidate is here */
+
+.liveJobsAndCandidate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3vw;
+}
+
+.liveJobsTop,
+.candidatesTop {
+    font-size: 1.45rem;
+    margin: 0;
+}
+
+.liveJobsTop span,
+.candidatesTop span {
+    color: #0A66C2;
+    font-weight: bolder;
+}
+
+.liveJobsMiddle,
+.candidatesMiddle {
+    color: #7A7A7A;
+    font-size: 0.9rem;
+    font-weight: 300;
+    word-spacing: 0.7px;
+}
+
+.viewAllDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4vh 0 0 0;
+}
+
+.viewAllDiv p {
+    font-size: 0.8rem;
+    color: #000000;
+    margin-right: 1vw;
+}
+
+.liveJobs,
+.candidates {
+    /* border: 1px solid black; */
+    padding: 0 0 13vh 0;
+}
+
+/* jobCardSection is here */
+
+.jobCardSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* responsive for 1440px width */
+@media(width<1441px) {
+    .LiveJobSection section {
+        margin: 5vh 0 5vh 10vw;
+    }
+
+    .liveJobsAndCandidate {
+        margin-right: 0;
+        /* border: 1px solid black; */
+    }
+}
+
+/* responsive for 1024px width */
+@media(width<1025px) {
+    .LiveJobSection section {
+        height: auto;
+        margin: 5vh 0 5vh 10vw;
+        /* border: 1px solid black; */
+    }
+
+    .liveJobsAndCandidate {
+        margin: 0 5vw 0 0;
+    }
+
+    .liveJobsTop,
+    .candidatesTop {
+        font-size: 1.15rem;
+        margin: 0;
+    }
+
+
+    .liveJobsMiddle,
+    .candidatesMiddle {
+        font-size: 0.6rem;
+        word-spacing: 0;
+    }
+
+    .liveJobs,
+    .candidates {
+        /* border: 1px solid black; */
+        padding: 0 0 10vh 0;
+    }
+}
+
+/* tablet responsive is here */
+@media (width<769px) {
+    .LiveJobSection {
+        height: auto;
+    }
+
+    .LiveJobSection section {
+        width: auto;
+        margin: 5vh 25px 3vh 25px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+
+    .liveJobsAndCandidate {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .candidates {
+        margin-left: 33vw;
+    }
+
+
+    .liveJobs,
+    .candidates {
+        /* border: 1px solid black; */
+        padding: 0 0 6vh 0;
+    }
+
+    .jobCardSection {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+}
+
+/* mobile responsive */
+
+@media (width<426px) {
+    .LiveJobSection {
+        height: auto;
+    }
+
+    .LiveJobSection section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 16px;
+        /* border: 1px solid black; */
+    }
+    
+    .liveJobs,
+    .candidates {
+        /* border: 1px solid black; */
+        padding: 0 0 5vh 0;
+    }
+    .candidates {
+        margin-left: 19.6vw;
+    }
+    .jobCardSection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+@media (width<321px){
+    .candidates {
+        margin-left: 7.5vw;
+    }
+}
