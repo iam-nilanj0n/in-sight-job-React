@@ -78,7 +78,7 @@
 @media(width<1921px) {
     .LiveJobSection section {
         height: auto;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .liveJobsTop,

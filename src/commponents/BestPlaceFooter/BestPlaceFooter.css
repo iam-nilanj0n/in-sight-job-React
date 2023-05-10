@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: row;
     background-color: #F6FCFF;
-    align-items: center;
+    align-items: flex-start;
     margin: 13vh 0 4vh 0;
     border-radius: 4vh;
     padding: 4vh 0;
@@ -111,6 +111,65 @@
     margin: 0 1.5vw;
 }
 
+/* responsive for 1920px width */
+@media(width<1921px) {
+    .BestPlaceFooter section {
+        height: auto;
+        /* margin: 5vh 0 5vh 11vw; */
+        /* border: 1px solid black; */
+    }
+
+    .BestPlaceFooterTop p {
+        font-size: 66px;
+    }
+
+    .BestPlaceFooterTop div button {
+        font-size: 32px;
+    }
+
+    .BestPlaceFooterBottom div p,
+    .BestPlaceFooterBottom div b {
+        font-size: 22px;
+    }
+
+    .BestPlaceFooterBottom4th {
+        margin: 0 4vw 0 17vw;
+    }
+
+    .BestPlaceFooterLogos img {
+        height: 52px;
+        width: 52px;
+    }
+}
+
+/* responsive for width 1440px */
+@media(width<1441px) {
+    .BestPlaceFooterTop p {
+        font-size: 3rem;
+    }
+
+    .BestPlaceFooterTop div button {
+        font-size: 1.35rem;
+    }
+
+    .BestPlaceFooterBottom div b,
+    .BestPlaceFooterBottom div p{
+        font-size: 16px;
+    }
+
+    .BestPlaceFooterBottom4th {
+        margin: 0 4vw 0 22vw;
+    }
+    .BestPlaceFooterBottom2nd{
+        margin: 0 3vw;
+    }
+
+    .BestPlaceFooterLogos img {
+        height: 45px;
+        width: 45px;
+    }
+}
+
 /* responsive for width 1024px */
 @media(width<1025px) {
     .BestPlaceFooterTop p {
@@ -143,17 +202,12 @@
         /* border: 1px solid black; */
     }
 
-    .BestPlaceFooterBottom1st b,
-    .BestPlaceFooterBottom2nd b,
-    .BestPlaceFooterBottom3rd b {
+    .BestPlaceFooterBottom div b{
         margin-bottom: 3vh;
-        font-size: 0.85rem;
+        font-size: 0.75rem;
     }
 
-    .BestPlaceFooterBottom1st p,
-    .BestPlaceFooterBottom2nd p,
-    .BestPlaceFooterBottom3rd p,
-    .BestPlaceFooterBottom4th p {
+    .BestPlaceFooterBottom div p {
         font-size: 0.75rem;
         ;
     }
@@ -163,13 +217,13 @@
     }
 
     .BestPlaceFooterBottom4th {
-        margin: 0 4vw 0 20vw;
+        margin: 0 4vw 0 20.75vw;
         align-items: center;
     }
 
     .BestPlaceFooterLogos img {
-        height: 6vh;
-        width: 6vh;
+        height: 37px;
+        width: 37px;
     }
 }
 

@@ -26,6 +26,7 @@ export default function BestPlaceFooter() {
           </div>
           <div className='BestPlaceFooterBottom2nd'>
             <b>For Company</b>
+            <p>Why Jobs Sight</p>
             <p>Post a free job</p>
             <p>Knowledge base</p>
             <p>Pricing</p>

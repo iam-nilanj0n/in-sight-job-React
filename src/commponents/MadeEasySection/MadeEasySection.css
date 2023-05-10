@@ -83,6 +83,38 @@
     margin-left: 1vw;
 }
 
+/* responsive for width 1920px */
+@media(width<1921px) {
+    .MadeEasySection section {
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .MadeEasySectionLeftPart p {
+        font-size: 36px;
+    }
+
+    .MadeEasySectionSeparater {
+        margin: 0 6vw 0 8.6vw;
+    }
+
+    .MadeEasySectionRightPartHeading,
+    .bold {
+        font-size: 24px;
+    }
+
+    .MadeEasySectionRightPart div p {
+        font-size: 20px;
+    }
+    .MadeEasySectionRightPartMiddle {
+        margin: 0 3.5vw 0 3.5vw;
+    }
+    .MadeEasySection section .inJobsightButton {
+        font-size: 20px;
+        margin-left: 4.2vw;
+    }
+}
+
 /* responsive for width 1440px */
 @media(width<1441px) {
     .MadeEasySection section {
@@ -90,12 +122,30 @@
         /* border: 1px solid black; */
     }
 
+    .MadeEasySectionLeftPart p {
+        font-size: 1.4rem;
+    }
+
     .MadeEasySectionSeparater {
-        margin: 0 5vw 0 7.45vw;
+        margin: 0 6vw 0 7.45vw;
+    }
+
+    .MadeEasySectionRightPart div p {
+        font-size: 0.85rem;
+    }
+
+    .MadeEasySectionRightPartMiddle {
+        margin: 0 5vw 0 5vw;
+    }
+
+    .MadeEasySectionRightPartHeading,
+    .bold {
+        font-size: 0.95rem;
     }
 
     .MadeEasySection section .inJobsightButton {
-        margin: 0 0 0 8.55vw;
+        font-size: 0.85rem;
+        margin: 0 0 0 7.35vw;
     }
 }
 
@@ -222,9 +272,11 @@
     .MadeEasySectionSeparater {
         display: none;
     }
-    .MadeEasySectionRightPartMiddle{
+
+    .MadeEasySectionRightPartMiddle {
         margin: 0 10vw;
     }
+
     .MadeEasySection section .inJobsightButton {
         margin: 0;
         width: 60vw;

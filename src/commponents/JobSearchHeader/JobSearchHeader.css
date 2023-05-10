@@ -75,8 +75,8 @@ header section {
 
 .middleHr {
     height: 4px;
-    width: 30px;
-    margin: 4px 0 4px 10px;
+    width: 40px;
+    margin: 4px 0 4px 0;
     background-color: white;
 }
 
@@ -224,11 +224,15 @@ header section {
 @media(width<1921px) {
     header section {
         height: auto;
-        border: 1px solid black;
+        /* border: 1px solid black; */
+    }
+
+    .logoPic {
+        margin-left: -0.7vw;
     }
 
     .rightLogoSection {
-        margin-left: 30.1vw;
+        margin-left: 30.8vw;
     }
 
     .heading1 {
@@ -265,11 +269,12 @@ header section {
         font-size: 16px;
         margin-left: 1.55vw;
     }
+
     .differentJobs {
         margin-top: 109px;
     }
 
-    .differentJobs p{
+    .differentJobs p {
         font-size: 16px;
     }
 }
@@ -295,6 +300,7 @@ header section {
 
     .logoPic {
         width: 16vw;
+        margin-left: -0.9vw;
     }
 
     .bestCareer {
@@ -316,7 +322,7 @@ header section {
     }
 
     .rightLogoSection {
-        margin-left: 23.55vw;
+        margin-left: 24.45vw;
     }
 
     .What label,
@@ -334,11 +340,11 @@ header section {
         font-size: 0.8rem;
     }
 
-    .differentJobs{
+    .differentJobs {
         margin-top: 10vh;
     }
 
-    .differentJobs p{
+    .differentJobs p {
         font-size: 0.8rem;
     }
 }
@@ -356,6 +362,7 @@ header section {
 
     .logoPic {
         width: 14vw;
+        margin: 0 0 0 -0.75vw;
     }
 
     .findJobs {
@@ -363,7 +370,7 @@ header section {
     }
 
     .rightLogoSection {
-        margin: 0 0 0 24vw;
+        margin: 0 0 0 24.75vw;
     }
 
     .rightLogoSection div {
@@ -375,7 +382,14 @@ header section {
     }
 
     .dropDown {
-        margin: 0 0 0 3.5vw;
+        margin: 0 0 0 4.45vw;
+        width: 30px;
+    }
+
+    .topHr,
+    .middleHr,
+    .bottomHr {
+        width: 30px;
     }
 
     .heading1 {
@@ -457,7 +471,8 @@ header section {
     }
 
     .logoPic {
-        width: 25vw;
+        width: 23vw;
+        margin: 0 0 0 -1.2vw;
     }
 
     .findJobs {
@@ -468,8 +483,16 @@ header section {
         display: none;
     }
 
+
     .dropDown {
-        margin: 0 0 1vh 61.75vw;
+        margin: 0 0 1vh 66.2vw;
+        width: 30px;
+    }
+
+    .topHr,
+    .middleHr,
+    .bottomHr {
+        width: 30px;
     }
 
     .headingSection {
@@ -486,27 +509,29 @@ header section {
 
     .searchSection {
         display: flex;
-        flex-direction: column;
-        margin: 0;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .bestCareer {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 4vh 0;
+        margin: 0 0 20vh 0;
         width: auto;
+        position: absolute;
     }
 
     .bestCareer b {
-        margin: 0 2vw;
+        font-size: 1rem;
+        margin: 0 1vw;
     }
 
     .whatInput,
     .whereInput,
     .experienceInput {
-        width: 35vw;
+        width: 23vw;
         padding: 1vh 2vw 1vh 2vw;
     }
 
@@ -515,21 +540,17 @@ header section {
     .Where label {
         font-size: 0.9rem;
         text-align: center;
-    }
-
-    .middleHr {
-        height: 4px;
-        width: 40px;
-        margin: 4px 0 4px 0;
+        margin: 0;
     }
 
     .searchNowButton {
-        margin: 0;
-        width: 30vw;
+        margin: 15vh 0 0 0;
+        width: 27vw;
+        position: absolute;
     }
 
     .differentJobs {
-        margin-top: 8vh;
+        margin-top: 12vh;
     }
 }
 
@@ -550,6 +571,7 @@ header section {
 
     .logoPic {
         width: 30vw;
+        margin: 0 0 0 -1.3vw;
     }
 
     .findJobs {
@@ -561,7 +583,14 @@ header section {
     }
 
     .dropDown {
-        margin-left: 51.5vw;
+        margin-left: 56vw;
+        width: 25px;
+    }
+
+    .topHr,
+    .middleHr,
+    .bottomHr {
+        width: 25px;
     }
 
     .headingSection {
@@ -590,6 +619,7 @@ header section {
         width: auto;
         font-size: 0.8rem;
         margin-bottom: 2vh;
+        position: static;
     }
 
     .bestCareer b {
@@ -625,6 +655,7 @@ header section {
     .searchNowButton {
         width: 55vw;
         margin: 1vh 0 0 0;
+        position: static;
     }
 
     .differentJobs {
@@ -642,9 +673,6 @@ header section {
 }
 
 @media(width<376px) {
-    .dropDown {
-        margin-left: 49vw;
-    }
 
     .whatInput,
     .whereInput,
@@ -654,6 +682,10 @@ header section {
 
     .searchNowButton {
         width: 59vw;
+    }
+
+    .dropDown {
+        margin-left: 54.25vw;
     }
 }
 
@@ -667,7 +699,17 @@ header section {
     }
 
     .dropDown {
-        margin-left: 41vw;
+        margin-left: 47vw;
+    }
+
+    .bestCareer {
+        font-size: 0.7rem;
+        margin-bottom: 2vh;
+    }
+
+    .bestCareer b {
+        font-size: 0.7rem;
+        margin: 0 1.5vw;
     }
 
     .whatInput,

@@ -48,6 +48,26 @@
     margin-left: 1vw;
 }
 
+/* responsive for width 1920px */
+@media(width<1921px) {
+    .PersonalRecruter section {
+        height: auto;
+        /* border: 1px solid black; */
+    }
+    .PersonalRecruterLeftPart p{
+        font-size: 36px;
+    }
+
+    .PersonalRecruterRightPart p{
+        font-size: 20px;
+    }
+
+    .PersonalRecruter section .inJobsightButton{
+        font-size: 20px;
+        margin-left: 12.1vw;
+    }
+}
+
 /* responsive for 1440px */
 @media(width<1441px) {
     .PersonalRecruter section {
@@ -57,6 +77,18 @@
 
     .PersonalRecruter section .inJobsightButton {
         margin: 0 0 0 14.55vw;
+    }
+
+    .PersonalRecruterLeftPart p {
+        font-size: 1.4rem;
+    }
+    .PersonalRecruterRightPart p {
+        font-size: 0.9rem;
+    }
+
+    .PersonalRecruter section .inJobsightButton{
+        font-size: 0.85rem;
+        margin-left: 17vw;
     }
 }
 
@@ -115,7 +147,8 @@
         /* margin: 5vh 0 5vh 11vw; */
         /* border: 1px solid black; */
     }
-    .PersonalRecruterLeftPart{
+
+    .PersonalRecruterLeftPart {
         /* border: 1px solid black; */
         width: 20vw;
     }
@@ -123,9 +156,11 @@
     .PersonalRecruterLeftPart p {
         font-size: 0.9rem;
     }
-    .PersonalRecruterSeparater{
+
+    .PersonalRecruterSeparater {
         margin: 0 6.5vw 0 1vw;
     }
+
     .PersonalRecruterRightPart p {
         font-size: 0.55rem;
         margin: 0;
@@ -156,10 +191,12 @@
         align-items: flex-start;
         /* border: 1px solid black; */
     }
-    .PersonalRecruterLeftPart{
+
+    .PersonalRecruterLeftPart {
         width: 40vw;
         /* border: 1px solid black; */
     }
+
     .PersonalRecruterSeparater {
         display: none;
     }
