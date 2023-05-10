@@ -40,6 +40,10 @@ header section {
     margin: 0 2vw;
 }
 
+.findJobs span:hover{
+    color: #CCCACA;
+}
+
 .rightLogoSection {
     display: flex;
     flex-direction: row;
@@ -126,6 +130,10 @@ header section {
     color: white;
     /* border: 1px solid black; */
     width: 14vw;
+}
+
+.bestCareer b {
+    font-size: 1rem;
 }
 
 .What,
@@ -221,7 +229,7 @@ header section {
 
 
 /* responsive for 1920px is here */
-@media(width<1921px) {
+@media(width=1920px) {
     header section {
         height: auto;
         /* border: 1px solid black; */
@@ -246,6 +254,10 @@ header section {
     .bestCareer {
         font-size: 24px;
         margin-right: 2vw;
+    }
+
+    .bestCareer b{
+        font-size: 24px;
     }
 
     .What label,
@@ -280,7 +292,7 @@ header section {
 }
 
 /* responsive for 1440px is here */
-@media(width<1441px) {
+@media(width=1440px) {
     header section {
         height: auto;
         /* border: 1px solid black; */
@@ -306,6 +318,10 @@ header section {
     .bestCareer {
         font-size: 1rem;
         margin: 0;
+    }
+
+    .bestCareer b{
+        font-size: 1rem;
     }
 
     .searchNowButton {
@@ -350,7 +366,7 @@ header section {
 }
 
 /* responsive for 1024px screen width */
-@media(width<1025px) {
+@media(width=1024px) {
     .JobSearchHeader {
         height: auto;
     }
@@ -407,9 +423,8 @@ header section {
         /* border: 1px solid black; */
         width: 14vw;
         margin-right: 2.5vh;
+        font-size: 0.75rem;
     }
-
-    .bestCareer p,
     .bestCareer b {
         font-size: 0.75rem;
     }

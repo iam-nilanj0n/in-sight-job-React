@@ -49,7 +49,7 @@
 }
 
 /* responsive for width 1920px */
-@media(width<1921px) {
+@media(width=1920px) {
     .PersonalRecruter section {
         height: auto;
         /* border: 1px solid black; */
@@ -69,7 +69,7 @@
 }
 
 /* responsive for 1440px */
-@media(width<1441px) {
+@media(width=1440px) {
     .PersonalRecruter section {
         height: auto;
         /* border: 1px solid black; */
@@ -93,7 +93,7 @@
 }
 
 /* responsive for 1024px width */
-@media(width<1025px) {
+@media(width=1024px) {
     .PersonalRecruter section {
         height: auto;
         margin: 7vh 0 7vh 10vw;

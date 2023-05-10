@@ -112,7 +112,7 @@
 }
 
 /* responsive for 1920px width */
-@media(width<1921px) {
+@media(width=1920px) {
     .BestPlaceFooter section {
         height: auto;
         /* margin: 5vh 0 5vh 11vw; */
@@ -143,7 +143,7 @@
 }
 
 /* responsive for width 1440px */
-@media(width<1441px) {
+@media(width=1440px) {
     .BestPlaceFooterTop p {
         font-size: 3rem;
     }
@@ -171,7 +171,7 @@
 }
 
 /* responsive for width 1024px */
-@media(width<1025px) {
+@media(width=1024px) {
     .BestPlaceFooterTop p {
         font-size: 2.05rem;
         margin-bottom: 6vh;

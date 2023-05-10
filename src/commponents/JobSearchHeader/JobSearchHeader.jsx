@@ -1,6 +1,8 @@
 import React from 'react';
 import './JobSearchHeader.css';
 import logo from '../../assets/Logo.svg';
+import FindJobModal from '../FindJobModal/FindJobModal';
+import { useState } from 'react';
 // const headerStyle = {
 //     backgroundColor: '#0A66C2',
 //     padding: '5vh 10.87vw 5vh 11.07vw',
@@ -9,15 +11,17 @@ import logo from '../../assets/Logo.svg';
 // }
 
 export default function JobSearchHeader() {
+    const [modalDisplay, setModalDisplay] = useState(false)
     return (
         <>
             <header class='JobSearchHeader'>
                 <section>
                     <div className='logoSection'>
                         <div className='leftLogoSection'>
+                            <FindJobModal modalDisplay={modalDisplay}/>
                             <img src={logo} alt='logoPic' className='logoPic' />
                             <p className='findJobs'>
-                                <span>FIND JOBS</span>
+                                <span onMouseEnter={(e)=>setModalDisplay(true)}  onMouseOut={(e)=>setModalDisplay(false)}>FIND JOBS</span>
                                 <span>FOR COMPANY</span>
                             </p>
                         </div>
