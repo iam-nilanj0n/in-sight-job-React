@@ -1,5 +1,5 @@
 .JobSearchHeader {
-    height: 85vh;
+    height: auto;
     width: auto;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -219,6 +219,61 @@ header section {
     margin: 0 1.25vw;
 }
 
+
+/* responsive for 1920px is here */
+@media(width<1921px) {
+    header section {
+        height: auto;
+        border: 1px solid black;
+    }
+
+    .rightLogoSection {
+        margin-left: 30.1vw;
+    }
+
+    .heading1 {
+        font-size: 48px;
+    }
+
+    .heading2 {
+        font-size: 16px;
+    }
+
+    .bestCareer {
+        font-size: 24px;
+        margin-right: 2vw;
+    }
+
+    .What label,
+    .Experience label,
+    .Where label {
+        font-size: 24px;
+    }
+
+    .whatInput,
+    .whereInput,
+    .experienceInput {
+        font-size: 16px;
+        color: #AEAEAE;
+        height: 51px;
+        padding: 0 1vw 0 1vw;
+    }
+
+    .searchNowButton {
+        height: 51px;
+        width: 237px;
+        font-size: 16px;
+        margin-left: 1.55vw;
+    }
+    .differentJobs {
+        margin-top: 109px;
+    }
+
+    .differentJobs p{
+        font-size: 16px;
+    }
+}
+
 /* responsive for 1440px is here */
 @media(width<1441px) {
     header section {
@@ -230,11 +285,29 @@ header section {
         font-size: 13px;
     }
 
+    .heading1 {
+        font-size: 2rem;
+    }
+
+    .heading2 {
+        font-size: 0.7rem;
+    }
+
     .logoPic {
         width: 16vw;
     }
 
+    .bestCareer {
+        font-size: 1rem;
+        margin: 0;
+    }
+
     .searchNowButton {
+        width: auto;
+        padding: 0 2.5vw;
+        height: 5vh;
+        border-radius: 2.5vh;
+        font-size: 0.8rem;
         margin: 0 0 0 5.5vw;
     }
 
@@ -244,6 +317,29 @@ header section {
 
     .rightLogoSection {
         margin-left: 23.55vw;
+    }
+
+    .What label,
+    .Experience label,
+    .Where label {
+        font-size: 1.2rem;
+    }
+
+    .whatInput,
+    .whereInput,
+    .experienceInput {
+        padding: 0 1vw;
+        height: 5vh;
+        border-radius: 2.5vh;
+        font-size: 0.8rem;
+    }
+
+    .differentJobs{
+        margin-top: 10vh;
+    }
+
+    .differentJobs p{
+        font-size: 0.8rem;
     }
 }
 
@@ -336,7 +432,8 @@ header section {
     }
 
     .searchNowButton {
-        font-size: 0.75rem;
+        padding: 0;
+        font-size: 0.65rem;
         width: 13vw;
         margin: 0 0 1vh 3.5vw;
     }
@@ -548,12 +645,14 @@ header section {
     .dropDown {
         margin-left: 49vw;
     }
+
     .whatInput,
     .whereInput,
     .experienceInput {
         width: 55vw;
     }
-    .searchNowButton{
+
+    .searchNowButton {
         width: 59vw;
     }
 }
@@ -576,8 +675,9 @@ header section {
     .experienceInput {
         width: 65vw;
     }
-    .searchNowButton{
+
+    .searchNowButton {
         width: 69vw;
     }
-    
+
 }

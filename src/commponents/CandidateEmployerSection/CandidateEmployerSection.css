@@ -55,6 +55,46 @@
     margin-left: 10vw;
 }
 
+/* responsive for width 1920px */
+@media(width<1921px) {
+    .CandidateEmployerSection section {
+        height: auto;
+        /* margin: 5vh 0 5vh 11vw; */
+        border: 1px solid white;
+    }
+
+    .candidateLeftSection p {
+        font-size: 36px;
+    }
+
+    .candidatePart p,
+    .employerPart p {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .employerPart {
+        margin-left: 6vw;
+    }
+}
+
+/* responsive for width 1440px */
+@media(width<1441px) {
+    .candidateLeftSection p {
+        font-size: 1.4rem;
+    }
+
+    .candidatePart p,
+    .employerPart p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .employerPart {
+        margin-left: 10vw;
+    }
+}
+
 /* responsive for width 1024px*/
 @media(width<1025px) {
 
@@ -151,7 +191,7 @@
     }
 }
 
-@media(width<321px){
+@media(width<321px) {
     .candidateLeftSection p {
         font-size: 0.8rem;
     }

@@ -44,8 +44,46 @@
     margin-right: 4vw;
 }
 
+
+/* responsive for width 1920px */
+@media(width<1921px) {
+    .Principle section {
+        height: auto;
+        /* margin: 5vh 0 5vh 11vw; */
+        border: 1px solid black;
+    }
+    .ourPrinciplesHeading {
+        font-size: 36px;
+    }
+
+    .ourPrinciplesTop p,
+    .ourPrinciplesBottom p {
+        font-size: 16px;
+    }
+
+    .Principle section img {
+        height: 363.1px;
+        width: 355.4px;
+        margin-left: 2vw;
+    }
+
+    .ourPrinciples {
+        /* border: 1px solid black; */
+        width: auto;
+        margin-right: 0.65vw;
+    }
+}
+
 /* responsive for 1440px width */
 @media(width<1441px) {
+    .ourPrinciplesHeading {
+        font-size: 1.4rem;
+    }
+
+    .ourPrinciplesTop p,
+    .ourPrinciplesBottom p {
+        font-size: 0.65rem;
+    }
     .Principle section img {
         height: 33vh;
         width: 33vh;
@@ -150,7 +188,7 @@
     }
 }
 
-@media (width<376px){
+@media (width<376px) {
     .Principle section img {
         margin: 0;
         height: 50.5vh;
@@ -160,7 +198,7 @@
 }
 
 
-@media (width<321px){
+@media (width<321px) {
     .Principle section img {
         margin: 0;
         height: 42.5vh;

@@ -74,6 +74,35 @@
     grid-template-rows: repeat(2, 1fr);
 }
 
+/* responsive for 1920px */
+@media(width<1921px) {
+    .LiveJobSection section {
+        height: auto;
+        border: 1px solid black;
+    }
+
+    .liveJobsTop,
+    .candidatesTop {
+        font-size: 36px;
+    }
+
+    .liveJobsMiddle,
+    .candidatesMiddle {
+        font-size: 20px;
+
+    }
+
+    .viewAllDiv p {
+        font-size: 16px;
+    }
+
+    .liveJobs,
+    .candidates {
+        /* border: 1px solid black; */
+        padding: 0 0 9vh 0;
+    }
+}
+
 /* responsive for 1440px width */
 @media(width<1441px) {
     .LiveJobSection section {
@@ -83,6 +112,21 @@
     .liveJobsAndCandidate {
         margin-right: 0;
         /* border: 1px solid black; */
+    }
+
+    .liveJobsTop,
+    .candidatesTop {
+        font-size: 1.45rem;
+    }
+
+    .liveJobsMiddle,
+    .candidatesMiddle {
+        font-size: 0.9rem;
+    }
+    .liveJobs,
+    .candidates {
+        /* border: 1px solid black; */
+        padding: 0 0 11vh 0;
     }
 }
 
@@ -172,15 +216,17 @@
         margin: 16px;
         /* border: 1px solid black; */
     }
-    
+
     .liveJobs,
     .candidates {
         /* border: 1px solid black; */
         padding: 0 0 5vh 0;
     }
+
     .candidates {
         margin-left: 19.6vw;
     }
+
     .jobCardSection {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -188,7 +234,7 @@
     }
 }
 
-@media (width<321px){
+@media (width<321px) {
     .candidates {
         margin-left: 7.5vw;
     }
