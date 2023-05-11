@@ -15,8 +15,8 @@ export default function PersonalRecruter() {
         <div className='PersonalRecruterRightPart'>
           <p>We're always looking for the best</p>
           <p>opportunities for you.</p>
-          <p>With over 5 million active jobs refreshed daily,</p>
-          <p>we keep a</p>
+          <p style={{marginTop: '1vh'}}>With over 5 million active jobs refreshed daily,</p>
+          <p style={{marginBottom: '1vh'}}>we keep a</p>
           <p>pulse on the market — so you don't have to.</p>
         </div>
         <button className='inJobsightButton'>

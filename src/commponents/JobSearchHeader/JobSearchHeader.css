@@ -27,7 +27,9 @@ header section {
     align-items: center;
 }
 
-
+.logoPic{
+    margin-left: -0.8vw;
+}
 .findJobs {
     display: flex;
     flex-direction: row;
@@ -53,7 +55,7 @@ header section {
     font-weight: 600;
     justify-content: center;
     align-items: center;
-    margin-left: 21.5vw;
+    margin-left: 22.3vw;
 }
 
 .rightLogoSection div {
@@ -94,11 +96,18 @@ header section {
     margin: 10vh 0 5vh 0;
 }
 
+@font-face {
+    font-family: 'NeueMontreal-Medium';
+    src: url('../../fonts/NeueMontreal-Medium.otf') format("opentype");
+}
+
 .heading1 {
     font-size: 2rem;
     color: white;
-    font-weight: 700;
+    font-weight: bolder;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'NeueMontreal-Medium','Poppins', sans-serif;
+    letter-spacing: 0.1px;
 }
 
 .heading1 span {
