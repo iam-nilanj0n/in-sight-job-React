@@ -183,7 +183,7 @@
     }
 
     .candidates {
-        margin-left: 33vw;
+        margin-left: 29.5vw;
     }
 
 
@@ -224,7 +224,7 @@
     }
 
     .candidates {
-        margin-left: 19.6vw;
+        margin-left: 15vw;
     }
 
     .jobCardSection {
@@ -236,6 +236,18 @@
 
 @media (width<321px) {
     .candidates {
-        margin-left: 7.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .liveJobsTop,
+    .candidatesTop {
+        font-size: 0.95rem;
+    }
+
+
+    .liveJobsMiddle,
+    .candidatesMiddle {
+        font-size: 0.6rem;
+        word-spacing: 0;
     }
 }

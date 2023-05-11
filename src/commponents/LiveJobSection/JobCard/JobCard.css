@@ -46,6 +46,7 @@
     .readMore p {
         font-size: 16px;
     }
+
     .JobCard {
         /* border: 1px solid black; */
         margin: 0 0 5vh 3.5vw;
@@ -58,6 +59,7 @@
         /* border: 1px solid black; */
         margin: 0 0 5vh 4.8vw;
     }
+
     .JobCardHeading {
         font-size: 0.9rem;
     }
@@ -71,6 +73,7 @@
     .jobContract {
         font-size: 0.8rem;
     }
+
     .readMore p {
         font-size: 0.75rem;
     }
@@ -109,13 +112,48 @@
     .JobCard {
         margin: 0 7vw 2vh 0;
     }
+
+    .JobCardHeading {
+        font-size: 0.7rem;
+    }
+
+    .placeName,
+    .working {
+        font-size: 0.55rem;
+    }
+
+    .jobContract {
+        font-size: 0.6rem;
+    }
+
+    .readMore p {
+        font-size: 0.55rem;
+    }
 }
 
 /* mobile responsive is here */
 
 @media (width<426px) {
     .JobCard {
-        margin: 0 16vw 2vh 0;
+        margin: 0 19vw 2vh 0;
+    }
+
+
+    .JobCardHeading {
+        font-size: 0.7rem;
+    }
+
+    .placeName,
+    .working {
+        font-size: 0.55rem;
+    }
+
+    .jobContract {
+        font-size: 0.6rem;
+    }
+
+    .readMore p {
+        font-size: 0.55rem;
     }
 }
 
