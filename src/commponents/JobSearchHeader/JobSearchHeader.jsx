@@ -1,27 +1,38 @@
 import React from 'react';
 import './JobSearchHeader.css';
 import logo from '../../assets/Logo.svg';
-import FindJobModal from '../FindJobModal/FindJobModal';
 import { useState } from 'react';
-// const headerStyle = {
-//     backgroundColor: '#0A66C2',
-//     padding: '5vh 10.87vw 5vh 11.07vw',
-//     height: '93.37vh',
-//     width: '100vw'
-// }
+import Menu, { MenuContext } from './menu/FindjobsMenu';
+
 
 export default function JobSearchHeader() {
-    const [modalDisplay, setModalDisplay] = useState(false)
+    const [showMenu, setShowMenu] = useState(false);
+
+    const handleMenuClick = () => {
+        setShowMenu(true);
+    };
+
+    const handleLeave = () => {
+        setShowMenu(false);
+    }
+
     return (
         <>
             <header class='JobSearchHeader'>
                 <section>
                     <div className='logoSection'>
                         <div className='leftLogoSection'>
-                            <FindJobModal modalDisplay={modalDisplay}/>
+                            {/* <FindJobModal jobMenuDisplay={jobMenuDisplay}/> */}
                             <img src={logo} alt='logoPic' className='logoPic' />
                             <p className='findJobs'>
-                                <span onMouseEnter={(e)=>setModalDisplay(true)}  onMouseOut={(e)=>setModalDisplay(false)}>FIND JOBS</span>
+                                <MenuContext.Provider value={showMenu}>
+                                    <span
+                                        onMouseEnter={handleMenuClick}
+                                        onMouseLeave={handleLeave}>
+                                        FIND JOBS
+                                        <Menu/>
+                                    </span>
+                                </MenuContext.Provider>
                                 <span>FOR COMPANY</span>
                             </p>
                         </div>

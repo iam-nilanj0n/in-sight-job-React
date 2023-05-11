@@ -42,6 +42,7 @@ header section {
 
 .findJobs span:hover{
     color: #CCCACA;
+    cursor: pointer;
 }
 
 .rightLogoSection {
