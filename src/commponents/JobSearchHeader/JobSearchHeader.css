@@ -8,10 +8,10 @@
 
 header section {
     width: 80vw;
-    margin: 5vh 0 5vh 10vw;
+    margin: 1.5vh 0 5vh 10vw;
     background-color: #0A66C2;
     /* margin: 5vh 0 5vh 11vw; */
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .logoSection {
@@ -27,9 +27,10 @@ header section {
     align-items: center;
 }
 
-.logoPic{
+.logoPic {
     margin-left: -0.8vw;
 }
+
 .findJobs {
     display: flex;
     flex-direction: row;
@@ -40,13 +41,16 @@ header section {
 
 .findJobs span {
     margin: 0 2vw;
+    /* border: 0.5px solid black; */
+    padding: 3.5vh 0;
 }
 
-.findJobs span:hover{
+.findJobs span:hover {
     color: #CCCACA;
     cursor: pointer;
 }
 
+/* rightLogoSection is here */
 .rightLogoSection {
     display: flex;
     flex-direction: row;
@@ -55,7 +59,7 @@ header section {
     font-weight: 600;
     justify-content: center;
     align-items: center;
-    margin-left: 22.3vw;
+    margin-left: 28.7vw;
 }
 
 .rightLogoSection div {
@@ -71,6 +75,7 @@ header section {
     display: flex;
     flex-direction: column;
     margin: 0 0 1vh 3.8vw;
+    display: none;
 }
 
 .topHr,
@@ -106,7 +111,7 @@ header section {
     color: white;
     font-weight: bolder;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'NeueMontreal-Medium','Poppins', sans-serif;
+    font-family: 'NeueMontreal-Medium', 'Poppins', sans-serif;
     letter-spacing: 0.1px;
 }
 
@@ -208,7 +213,7 @@ header section {
     border-radius: 3vh;
     font-size: 0.8rem;
     width: auto;
-    margin: 0 0 0 5.7vw;
+    margin: 0 0 0 5.8vw;
 }
 
 /* differentJobs section is here */
@@ -250,7 +255,7 @@ header section {
     }
 
     .rightLogoSection {
-        margin-left: 30.8vw;
+        margin-left: 36.6vw;
     }
 
     .heading1 {
@@ -266,7 +271,7 @@ header section {
         margin-right: 2vw;
     }
 
-    .bestCareer b{
+    .bestCareer b {
         font-size: 24px;
     }
 
@@ -330,7 +335,7 @@ header section {
         margin: 0;
     }
 
-    .bestCareer b{
+    .bestCareer b {
         font-size: 1rem;
     }
 
@@ -348,7 +353,7 @@ header section {
     }
 
     .rightLogoSection {
-        margin-left: 24.45vw;
+        margin-left: 31.1vw;
     }
 
     .What label,
@@ -396,7 +401,7 @@ header section {
     }
 
     .rightLogoSection {
-        margin: 0 0 0 24.75vw;
+        margin: 0 0 0 32.15vw;
     }
 
     .rightLogoSection div {
@@ -435,6 +440,7 @@ header section {
         margin-right: 2.5vh;
         font-size: 0.75rem;
     }
+
     .bestCareer b {
         font-size: 0.75rem;
     }
@@ -471,10 +477,11 @@ header section {
     }
 
     .searchNowButton {
-        padding: 0;
+        padding: 0 0 0 0;
         font-size: 0.65rem;
-        width: 13vw;
-        margin: 0 0 1vh 3.5vw;
+        height: 5vh;
+        width: 11vw;
+        margin: 0 0 1vh 3.6vw;
     }
 
     .differentJobs p {
@@ -510,6 +517,7 @@ header section {
 
 
     .dropDown {
+        display: inherit;
         margin: 0 0 1vh 66.2vw;
         width: 30px;
     }
@@ -530,6 +538,8 @@ header section {
 
     .heading2 {
         text-align: center;
+        width: 60vw;
+        margin-top: 1vh;
     }
 
     .searchSection {
@@ -628,6 +638,7 @@ header section {
 
     .heading2 {
         font-size: 0.6rem;
+        width: auto;
         text-align: center;
         margin-top: 1vh;
     }
@@ -721,6 +732,11 @@ header section {
 
     .heading1 {
         font-size: 1rem;
+    }
+
+    .heading2 {
+        font-size: 0.5rem;
+        margin-top: 0.5vh;
     }
 
     .dropDown {
