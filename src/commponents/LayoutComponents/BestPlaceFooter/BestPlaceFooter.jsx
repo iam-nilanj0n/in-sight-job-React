@@ -1,8 +1,8 @@
 import React from 'react'
 import './BestPlaceFooter.css';
-import facebookLogo from '../../assets/Facebook.svg';
-import linkedinLogo from '../../assets/Linkedin.svg';
-import instagramLogo from '../../assets/Instagram.svg';
+import facebookLogo from '../../../assets/Facebook.svg';
+import linkedinLogo from '../../../assets/Linkedin.svg';
+import instagramLogo from '../../../assets/Instagram.svg';
 
 export default function BestPlaceFooter() {
   return (

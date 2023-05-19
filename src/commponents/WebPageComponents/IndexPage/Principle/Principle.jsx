@@ -1,8 +1,8 @@
 import React from 'react';
 import './Principle.css';
-import Knowledge from '../../assets/Knowledge.svg';
-import Honest from '../../assets/Honest.svg';
-import Specialist from '../../assets/Specialist.svg';
+import Knowledge from '../../../../assets/Knowledge.svg';
+import Honest from '../../../../assets/Honest.svg';
+import Specialist from '../../../../assets/Specialist.svg';
 
 export default function Principle() {
     return (

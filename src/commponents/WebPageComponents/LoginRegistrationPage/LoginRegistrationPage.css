@@ -1,0 +1,376 @@
+.LoginRegistrationPage {
+    background-color: #CDCDCD;
+}
+
+.LoginRegistrationPage main {
+    height: 90vh;
+    width: auto;
+}
+
+.LoginPagePic {
+    width: 70vw;
+    height: 90vh;
+    position: absolute;
+}
+
+.LoginRegistrationPage-AllForms {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    width: 20vw;
+    background-color: #FFFFFF;
+    padding: 20px 60px 40px 60px;
+    border-radius: 20px;
+    margin: 8vh 0 0 56vw;
+}
+
+
+
+
+
+/* Login FormBox starts below */
+.Login-FormBox {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Login-FormBox-Heading{
+    font-size: 22px;
+    color: #001751;
+}
+.Login-FormBox-Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid #CDCDCD;
+    padding: 4vh 0;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.LoginForm-Checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-FormBox-Top button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+}
+
+.Login-FormBox-Top .with-Google-LoginButton {
+    padding: 1.5vh 0;
+    background-color: #001751;
+    color: white;
+    font-weight: bolder;
+    width: 10vw;
+    margin-right: 1vw;
+}
+
+.Login-FormBox-Top .with-LinkeDIn-LoginButton {
+    padding: 0.5vh 0;
+    width: 10vw;
+    background-color: #001751;
+    color: white;
+    font-weight: bolder;
+}
+
+.Login-FormBox-Top button .googleIcon {
+    height: 3vh;
+    width: 3vh;
+    margin-left: 5px;
+}
+
+.Login-FormBox-Top button .linkedinIcon {
+    height: 5vh;
+    width: auto;
+    margin-left: 5px;
+}
+
+.LoginForm-Checkbox {
+    margin: 2vh 0;
+}
+
+.LoginForm-Checkbox .RememberMe-Label,
+.LoginForm-Checkbox .forgetPassword {
+    font-size: 14px;
+    font-weight: 200;
+    color: #001751;
+}
+
+.LoginForm-Checkbox .forgetPassword{
+    text-decoration: underline;
+}
+.LoginForm-Checkbox .forgetPassword:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.LoginForm-Checkbox .forgetPassword {
+    margin-left: 15px;
+}
+
+.Login-FormBox-LoginButton {
+    background-color: #0DCA91;
+    color: white;
+    padding: 1vh 0;
+    width: 15vw;
+    border: 0;
+    border-radius: 5px;
+    margin: 1vh 0;
+}
+
+.Login-FormBox-Footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #001751;
+}
+
+.Login-FormBox-Footer .signUp-Option {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.Login-FormBox-Footer .signUp-Option:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* Registration Form starts below */
+.Registration-FormBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Registration-FormBox-Heading{
+    font-size: 22px;
+    color: #001751;
+}
+.Registration-FormBox-Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid #CDCDCD;
+    padding: 4vh 0;
+}
+
+.Registration-FormBox-Top button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+}
+
+.Registration-FormBox-Top .with-Google-RegisterButton {
+    padding: 1.5vh 0;
+    background-color: #001751;
+    color: white;
+    font-weight: bolder;
+    width: 10vw;
+}
+
+.Registration-FormBox-Top .with-LinkeDIn-RegisterButton {
+    padding: 0.5vh 0;
+    width: 10vw;
+    background-color: #001751;
+    color: white;
+    font-weight: bolder;
+    margin-right: 1vw;
+}
+
+.Registration-FormBox-Top button .googleIcon {
+    height: 3vh;
+    width: 3vh;
+    margin-left: 5px;
+}
+
+.Registration-FormBox-Top button .linkedinIcon {
+    height: 5vh;
+    width: auto;
+    margin-left: 5px;
+}
+
+.RegistrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.RegistrationForm-Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1vh 0;
+}
+
+.RegistrationForm-Div-P{
+    color: #001751;
+}
+.RegistrationForm-Div-LogInOption{
+    margin-left: 0.5vw;
+    text-decoration: underline;
+}
+
+.RegistrationForm-Div-LogInOption:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.RegistrationForm-Div-CreateAccountButton {
+    background-color: #0DCA91;
+    color: white;
+    padding: 1vh 0;
+    width: 15vw;
+    border: 0;
+    border-radius: 5px;
+    margin: 2vh 0;
+}
+
+.Registration-FormBox-Footer {
+    font-size: 12px;
+}
+
+
+
+/* For Email and Password,
+ email-Input and Input-Box is here */
+.RegistrationForm label,
+.LoginForm label {
+    font-size: 18px;
+    margin-top: 4vh;
+}
+
+.RegistrationForm .emailInput,
+.LoginForm .emailInput {
+    padding: 1vh 0 1vh 1vw;
+    width: 20vw;
+    border: 0;
+    outline: 0.4px solid black;
+    border-radius: 5px;
+}
+
+.LoginForm-Div-InputBox,
+.RegistrationForm-InputBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.LoginForm-Div-InputBox input,
+.RegistrationForm-InputBox input {
+    padding: 1vh 0 1vh 1vw;
+    width: 18vw;
+    border: 0;
+    outline: 0px solid black;
+    border-radius: 5px;
+}
+
+
+.LoginForm-Div-InputBox button,
+.RegistrationForm-InputBox button {
+    margin-right: 0.35vw;
+    background-color: white;
+    border: 0;
+}
+
+.LoginForm-Div-InputBox button:hover,
+.RegistrationForm-InputBox button:hover{
+    cursor: pointer;
+}
+
+.LoginForm-Div-InputBox button i,
+.RegistrationForm-InputBox button i {
+    font-size: 24px;
+}
+
+
+/* forget password formBox is here */
+.ForgetPassword-FormBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ForgetPassword-FormBox-Heading {
+    font-size: 22px;
+    margin: 1vh 0;
+    color: #001751;
+}
+
+.ForgetPassword-FormBox-SubHeading {
+    font-size: 17px;
+    color: #001751;
+}
+
+.forgetPasswordForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4vh 0;
+    border-top: 0.5px solid #CDCDCD;
+}
+
+.forgetPasswordForm label {
+    font-size: 18px;
+}
+
+.forgetPasswordForm .emailInput {
+    padding: 1vh 0 1vh 1vw;
+    width: 20vw;
+    border: 0;
+    outline: 0.4px solid black;
+    border-radius: 5px;
+}
+
+.ForgetPassword-FormBox-BacktoLoginButton {
+    background-color: white;
+    color: black;
+    padding: 1vh 0;
+    width: 12vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 1vh 0;
+}
+
+.ForgetPassword-FormBox-BacktoLoginButton:hover{
+    color: rgb(40, 40, 255);
+    border: 0.5px solid rgb(40, 40, 255);
+    cursor: pointer;
+
+}
+
+.ForgetPassword-FormBox-ResetButton {
+    background-color: #0DCA91;
+    color: white;
+    padding: 1vh 0;
+    width: 15vw;
+    border: 0;
+    border-radius: 5px;
+    margin: 1vh 0;
+}

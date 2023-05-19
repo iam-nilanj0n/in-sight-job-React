@@ -11,7 +11,7 @@ header section {
     margin: 1.5vh 0 5vh 10vw;
     background-color: #0A66C2;
     /* margin: 5vh 0 5vh 11vw; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .logoSection {
@@ -61,7 +61,10 @@ header section {
     align-items: center;
     margin-left: 28.7vw;
 }
-
+.rightLogoSection p:hover{
+    cursor: pointer;
+    color: #CCCACA;
+}
 .rightLogoSection div {
     height: 6vh;
     width: 2px;
@@ -103,7 +106,7 @@ header section {
 
 @font-face {
     font-family: 'NeueMontreal-Medium';
-    src: url('../../fonts/NeueMontreal-Medium.otf') format("opentype");
+    src: url('../../../../fonts/NeueMontreal-Medium.otf') format("opentype");
 }
 
 .heading1 {

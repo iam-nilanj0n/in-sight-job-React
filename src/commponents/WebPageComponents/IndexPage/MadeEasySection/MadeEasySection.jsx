@@ -1,6 +1,6 @@
 import React from 'react';
 import './MadeEasySection.css';
-import greaterThan from '../../assets/Greaterthan.svg';
+import greaterThan from '../../../../assets/Greaterthan.svg';
 
 export default function MadeEasySection() {
     return (

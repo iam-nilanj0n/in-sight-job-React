@@ -1,0 +1,284 @@
+.HeaderComponent {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #0A66C2;
+}
+.logoPic:hover{
+    cursor: pointer;
+}
+.HeaderComponent-Section {
+    width: 80vw;
+    margin: 1.5vh 0 1.5vh 10vw;
+    background-color: #0A66C2;
+    /* margin: 5vh 0 5vh 11vw; */
+    /* border: 1px solid black; */
+}
+
+
+.HeaderComponent-Section .logoSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.HeaderComponent-Section .logoSection .leftLogoSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeaderComponent-Section .logoSection .leftLogoSection .logoPic {
+    margin-left: -0.8vw;
+}
+
+.HeaderComponent-Section .logoSection .leftLogoSection .findJobs {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.HeaderComponent-Section .logoSection .leftLogoSection .findJobs span {
+    margin: 0 2vw;
+    /* border: 0.5px solid black; */
+    padding: 3.5vh 0;
+}
+
+.HeaderComponent-Section .logoSection .leftLogoSection .findJobs span:hover {
+    color: #CCCACA;
+    cursor: pointer;
+}
+
+/* rightLogoSection is here */
+.HeaderComponent-Section .logoSection .rightLogoSection {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28.7vw;
+}
+
+.HeaderComponent-Section .logoSection .rightLogoSection p:hover {
+    cursor: pointer;
+    color: #CCCACA;
+}
+
+.HeaderComponent-Section .logoSection .rightLogoSection div {
+    height: 6vh;
+    width: 2px;
+    background-color: white;
+    margin: 0 2vw 0 2vw;
+}
+
+.HeaderComponent-Section .logoSection .dropDown {
+    height: 20px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1vh 3.8vw;
+    display: none;
+}
+
+.HeaderComponent-Section .logoSection .dropDown .topHr,
+.HeaderComponent-Section .logoSection .dropDown .bottomHr {
+    height: 4px;
+    width: 40px;
+    background-color: white;
+}
+
+.HeaderComponent-Section .logoSection .dropDown .middleHr {
+    height: 4px;
+    width: 40px;
+    margin: 4px 0 4px 0;
+    background-color: white;
+}
+
+/* responsive for 1920px is here */
+@media(width=1920px) {
+    .HeaderComponent-Section {
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .logoPic {
+        margin-left: -0.7vw;
+    }
+
+    .HeaderComponent-Section .logoSection .rightLogoSection {
+        margin-left: 36.6vw;
+    }
+}
+
+/* responsive for 1440px is here */
+@media(width=1440px) {
+    .HeaderComponent-Section {
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .findJobs {
+        font-size: 13px;
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .logoPic {
+        width: 16vw;
+        margin-left: -0.9vw;
+    }
+
+    .HeaderComponent-Section .logoSection .rightLogoSection p {
+        font-size: 13px;
+    }
+
+    .HeaderComponent-Section .logoSection .rightLogoSection {
+        margin-left: 31.1vw;
+    }
+}
+
+/* responsive for 1024px screen width */
+@media(width=1024px) {
+    .HeaderComponent {
+        height: auto;
+    }
+
+    .HeaderComponent-Section {
+        height: auto;
+        /* border: 1px solid black; */
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .logoPic {
+        width: 14vw;
+        margin: 0 0 0 -0.75vw;
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .findJobs {
+        font-size: 10px;
+    }
+
+    .HeaderComponent-Section .logoSection .rightLogoSection {
+        margin: 0 0 0 32.15vw;
+    }
+
+    .HeaderComponent-Section .logoSection .rightLogoSection div {
+        margin: 0 1.5vw;
+    }
+
+    .HeaderComponent-Section .logoSection .rightLogoSection p {
+        font-size: 10px;
+    }
+
+    .HeaderComponent-Section .logoSection .dropDown {
+        margin: 0 0 0 4.45vw;
+        width: 30px;
+    }
+
+    .HeaderComponent-Section .logoSection .dropDown .topHr,
+    .HeaderComponent-Section .logoSection .dropDown .middleHr,
+    .HeaderComponent-Section .logoSection .dropDown .bottomHr {
+        width: 30px;
+    }
+}
+
+/* tablet resonsive is here */
+@media(width<769px) {
+    .HeaderComponent {
+        height: auto;
+    }
+
+    .HeaderComponent-Section {
+        height: auto;
+        width: auto;
+        /* border: 1px solid black; */
+        margin: 5vh 25px 5vh 25px;
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .logoPic {
+        width: 23vw;
+        margin: 0 0 0 -1.2vw;
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .findJobs {
+        display: none;
+    }
+
+    .HeaderComponent-Section .logoSection .rightLogoSection {
+        display: none;
+    }
+
+
+    .HeaderComponent-Section .logoSection .dropDown {
+        display: inherit;
+        margin: 0 0 1vh 66.2vw;
+        width: 30px;
+    }
+
+    .HeaderComponent-Section .logoSection .dropDown .topHr,
+    .HeaderComponent-Section .logoSection .dropDown .middleHr,
+    .HeaderComponent-Section .logoSection .dropDown .bottomHr {
+        width: 30px;
+    }
+}
+
+/* mobile responsive is here */
+
+@media (width<426px) {
+    .HeaderComponent {
+        height: auto;
+    }
+
+    .HeaderComponent-Section {
+        height: auto;
+        width: auto;
+        margin: 16px 16px 16px 16px;
+        /* margin: 5vh 0 5vh 11vw; */
+        /* border: 1px solid black; */
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .logoPic {
+        width: 30vw;
+        margin: 0 0 0 -1.3vw;
+    }
+
+    .HeaderComponent-Section .logoSection .leftLogoSection .findJobs {
+        display: none;
+    }
+
+    .rightLogoSection {
+        display: none;
+    }
+
+    .HeaderComponent-Section .logoSection .dropDown {
+        margin-left: 56vw;
+        width: 25px;
+    }
+
+    .HeaderComponent-Section .logoSection .dropDown  .topHr,
+    .HeaderComponent-Section .logoSection .dropDown  .middleHr,
+    .HeaderComponent-Section .logoSection .dropDown  .bottomHr {
+        width: 25px;
+    }
+}
+
+@media(width<376px) {
+    .HeaderComponent-Section .logoSection .dropDown {
+        margin-left: 54.25vw;
+    }
+}
+
+@media(width<321px) {
+    .HeaderComponent-Section .logoSection .leftLogoSection .logoPic {
+        width: 35vw;
+    }
+
+
+    .HeaderComponent-Section .logoSection .dropDown {
+        margin-left: 47vw;
+    }
+}
+

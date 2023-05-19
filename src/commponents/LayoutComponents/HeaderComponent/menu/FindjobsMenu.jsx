@@ -7,7 +7,7 @@ function Menu() {
   const showMenu = useContext(MenuContext);
 
   return (
-    <div className="menu-container">
+    <span className="menu-container">
       {showMenu && (
         <div className="menu">
 
@@ -48,7 +48,7 @@ function Menu() {
 
         </div>
       )}
-    </div>
+    </span>
   );
 }
 

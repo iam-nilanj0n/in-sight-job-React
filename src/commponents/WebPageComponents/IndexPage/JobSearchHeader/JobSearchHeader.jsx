@@ -1,52 +1,18 @@
 import React from 'react';
 import './JobSearchHeader.css';
-import logo from '../../assets/Logo.svg';
-import { useState } from 'react';
-import Menu, { MenuContext } from './menu/FindjobsMenu';
+import HeaderComponent from '../../../LayoutComponents/HeaderComponent/HeaderComponent';
+// 
 
 
 export default function JobSearchHeader() {
-    const [showMenu, setShowMenu] = useState(false);
-
-    const handleMenuClick = () => {
-        setShowMenu(true);
-    };
-
-    const handleLeave = () => {
-        setShowMenu(false);
-    }
 
     return (
         <>
-            <header class='JobSearchHeader'>
+            <header className='JobSearchHeader'>
                 <section>
-                    <div className='logoSection'>
-                        <div className='leftLogoSection'>
-                            {/* <FindJobModal jobMenuDisplay={jobMenuDisplay}/> */}
-                            <img src={logo} alt='logoPic' className='logoPic' />
-                            <p className='findJobs'>
-                                <MenuContext.Provider value={showMenu}>
-                                    <span
-                                        onMouseEnter={handleMenuClick}
-                                        onMouseLeave={handleLeave}>
-                                        FIND JOBS
-                                        <Menu/>
-                                    </span>
-                                </MenuContext.Provider>
-                                <span>FOR COMPANY</span>
-                            </p>
-                        </div>
-                        <div className='rightLogoSection'>
-                            <p>POST YOUR JOBS</p>
-                            <div className='separater'></div>
-                            <p>LOGIN</p>
-                        </div>
-                        <div className='dropDown'>
-                            <div className='topHr'></div>
-                            <div className='middleHr'></div>
-                            <div className='bottomHr'></div>
-                        </div>
-                    </div>
+                    {/* Top Logo Section is Here */}
+                    <HeaderComponent HeaderPositionAt={'IndexPage'} />
+                    {/* Main Heading Section is here */}
                     <div className='headingSection'>
                         <p className='heading1'>
                             <span>AUTOMATIC</span> APPLYING TO JOB IS
@@ -58,6 +24,8 @@ export default function JobSearchHeader() {
                             Our passion is to research and select talents and qualified personnel for our Clients and to find the job you are passionate about
                         </p>
                     </div>
+
+                    {/* Search Section is here */}
                     <div className='searchSection'>
                         <p className='bestCareer'>
                             <span>Find the best</span>
@@ -91,6 +59,7 @@ export default function JobSearchHeader() {
                         </div>
                         <button className='searchNowButton'>Search Now</button>
                     </div>
+                    {/* Bottom Diffrent types of Jobs are here */}
                     <div className='differentJobs'>
                         <p>Remote</p>
                         <div className='differentJobsSeparate'></div>

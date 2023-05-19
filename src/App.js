@@ -1,24 +1,16 @@
 import React from 'react';
-import JobSearchHeader from './commponents/JobSearchHeader/JobSearchHeader';
 import './App.css';
-import LiveJobSection from './commponents/LiveJobSection/LiveJobSection';
-import CandidateEmployerSection from './commponents/CandidateEmployerSection/CandidateEmployerSection';
-import Principle from './commponents/Principle/Principle';
-import PersonalRecruter from './commponents/PersonalRecruter/PersonalRecruter';
-import MadeEasySection from './commponents/MadeEasySection/MadeEasySection';
-import BestPlaceFooter from './commponents/BestPlaceFooter/BestPlaceFooter';
-
+import { Routes , Route} from 'react-router-dom';
+import IndexPage from './commponents/WebPageComponents/IndexPage/IndexPage';
+import LoginRegistrationPage from './commponents/WebPageComponents/LoginRegistrationPage/LoginRegistrationPage';
 
 const App = () => {
   return (
     <div className='App'>
-      <JobSearchHeader/>
-      <LiveJobSection/>
-      <CandidateEmployerSection/>
-      <Principle/>
-      <PersonalRecruter/>
-      <MadeEasySection/>
-      <BestPlaceFooter/>
+      <Routes>
+        <Route path='/' element={<IndexPage/>}/>
+        <Route path='/login' element={<LoginRegistrationPage/>}/>
+      </Routes>
     </div>
   );
 };

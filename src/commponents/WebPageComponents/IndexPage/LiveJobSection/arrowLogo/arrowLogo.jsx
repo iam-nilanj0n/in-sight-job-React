@@ -1,5 +1,5 @@
 import React from 'react'
-import arrowPic from '../../../assets/arrowLogo.png';
+import arrowPic from '../../../../../assets/arrowLogo.png';
 import './arrowLogo.css';
 
 export default function ArrowLogo() {
