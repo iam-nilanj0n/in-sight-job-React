@@ -22,7 +22,7 @@
     background-color: #FFFFFF;
     padding: 20px 60px 40px 60px;
     border-radius: 20px;
-    margin: 8vh 0 0 56vw;
+    margin: 10vh 0 0 56vw;
 }
 
 
@@ -115,13 +115,14 @@
 
 .LoginForm-Checkbox .forgetPassword{
     text-decoration: underline;
+    margin-left: 15px;
 }
 .LoginForm-Checkbox .forgetPassword:hover{
     cursor: pointer;
     text-decoration: none;
 }
-.LoginForm-Checkbox .forgetPassword {
-    margin-left: 15px;
+.LoginForm-Checkbox .RememberMe-Label {
+    margin-left: 5px;
 }
 
 .Login-FormBox-LoginButton {
@@ -373,4 +374,14 @@
     border: 0;
     border-radius: 5px;
     margin: 1vh 0;
+}
+
+
+/* responsive work for login page is here */
+
+/* responsive for width 1920px */
+@media (width=1920px){
+    .LoginRegistrationPage-AllForms {
+        margin: 16vh 0 0 60vw;
+    }
 }

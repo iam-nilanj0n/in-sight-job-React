@@ -16,10 +16,58 @@
     align-items: center;
 }
 
-.Principle section img {
+.Principle section .Img-Container {
     height: 37vh;
     width: 37vh;
     margin-left: 2vw;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+}
+
+.Principle section .Img-Container b {
+    font-size: 17.5px;
+    color: #333333;
+}
+
+.Principle section .Img-Container .Img-Container-Div {
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 1vh 0;
+}
+.Principle section .Img-Container .Img-Container-P{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 5vh;
+}
+.Principle section .Img-Container p {
+    font-size: 11.7px;
+    color: #333333;
+}
+
+.knowledgePic {
+    width: 108.77px;
+    height: 127.41px;
+}
+
+.specialistePic {
+    width: 130.68px;
+    height: 133.09px;
+}
+
+.honestPic {
+    width: 134.69px;
+    height: 136.29px;
 }
 
 .ourPrinciplesHeading {
@@ -52,6 +100,7 @@
         /* margin: 5vh 0 5vh 11vw; */
         /* border: 1px solid black; */
     }
+
     .ourPrinciplesHeading {
         font-size: 36px;
     }
@@ -61,10 +110,40 @@
         font-size: 16px;
     }
 
-    .Principle section img {
+    .Principle section .Img-Container {
         height: 363.1px;
         width: 355.4px;
         margin-left: 2vw;
+    }
+
+    .Principle section .Img-Container b {
+        font-size: 24px;
+    }
+
+    .Principle section .Img-Container .Img-Container-Div {
+        height: 190px;
+        width: 190px;
+        /* border: 1px solid black; */
+        margin: 1vh 0;
+    }
+
+    .Principle section .Img-Container p {
+        font-size: 16px;
+    }
+
+    .knowledgePic {
+        width: 149.28px;
+        height: 174.86px;
+    }
+
+    .specialistePic {
+        width: 179.35px;
+        height: 182.65px;
+    }
+
+    .honestPic {
+        width: 184.85px;
+        height: 187.05px;
     }
 
     .ourPrinciples {
@@ -84,10 +163,41 @@
     .ourPrinciplesBottom p {
         font-size: 0.65rem;
     }
-    .Principle section img {
+
+    .Principle section .Img-Container {
         height: 33vh;
         width: 33vh;
         margin-left: 2vw;
+    }
+
+    .Principle section .Img-Container b {
+        font-size: 18px;
+    }
+
+    .Principle section .Img-Container .Img-Container-Div {
+        height: 145px;
+        width: 145px;
+        /* border: 1px solid black; */
+        margin: 1vh 0;
+    }
+
+    .Principle section .Img-Container p {
+        font-size: 12px;
+    }
+
+    .knowledgePic {
+        width: 111.96px;
+        height: 131.15px;
+    }
+
+    .specialistePic {
+        width: 134.51px;
+        height: 136.99px;
+    }
+
+    .honestPic {
+        width: 138.64px;
+        height: 140.29px;
     }
 
     .ourPrinciples {
@@ -99,10 +209,40 @@
 
 /* responsive for width 1024px */
 @media(width=1024px) {
-    .Principle section img {
+    .Principle section .Img-Container {
         height: 27vh;
         width: 27vh;
         margin-left: 1.5vw;
+    }
+
+    .Principle section .Img-Container b {
+        font-size: 12.8px;
+    }
+
+    .Principle section .Img-Container .Img-Container-Div {
+        height: 100px;
+        width: 100px;
+        /* border: 1px solid black; */
+        margin: 1vh 0;
+    }
+
+    .Principle section .Img-Container p {
+        font-size: 8.53px;
+    }
+
+    .knowledgePic {
+        width: 79.62px;
+        height: 93.26px;
+    }
+
+    .specialistePic {
+        width: 95.65px;
+        height: 97.41px;
+    }
+
+    .honestPic {
+        width: 98.59px;
+        height: 99.76px;
     }
 
     .ourPrinciplesHeading {
@@ -150,11 +290,43 @@
         font-size: 0.5rem;
     }
 
-    .Principle section img {
+    .Principle section .Img-Container {
         height: 24vh;
         width: 24vh;
         margin-left: 1.55vw;
     }
+
+    .Principle section .Img-Container b {
+        font-size: 9.6px;
+    }
+
+    .Principle section .Img-Container .Img-Container-Div {
+        height: 75px;
+        width: 75px;
+        /* border: 1px solid black; */
+        margin: 1vh 0;
+    }
+
+    .Principle section .Img-Container p {
+        font-size: 6.4px;
+    }
+
+    .knowledgePic {
+        width: 59.71px;
+        height: 69.94px;
+    }
+
+    .specialistePic {
+        width: 71.74px;
+        height: 73.06px;
+    }
+
+    .honestPic {
+        width: 73.94px;
+        height: 74.82px;
+    }
+
+
 }
 
 
@@ -180,16 +352,46 @@
         font-size: 0.75rem;
     }
 
-    .Principle section img {
+    .Principle section .Img-Container {
         margin: 0;
         height: 58vh;
         width: 58vh;
         margin-top: 2vh;
     }
+
+    .Principle section .Img-Container b {
+        font-size: 18px;
+    }
+
+    .Principle section .Img-Container .Img-Container-Div {
+        height: 145px;
+        width: 145px;
+        /* border: 1px solid black; */
+        margin: 1vh 0;
+    }
+
+    .Principle section .Img-Container p {
+        font-size: 12px;
+    }
+
+    .knowledgePic {
+        width: 111.96px;
+        height: 131.15px;
+    }
+
+    .specialistePic {
+        width: 134.51px;
+        height: 136.99px;
+    }
+
+    .honestPic {
+        width: 138.64px;
+        height: 140.29px;
+    }
 }
 
 @media (width<376px) {
-    .Principle section img {
+    .Principle section .Img-Container {
         margin: 0;
         height: 50.5vh;
         width: 50.5vh;
@@ -199,7 +401,7 @@
 
 
 @media (width<321px) {
-    .Principle section img {
+    .Principle section .Img-Container {
         margin: 0;
         height: 42.5vh;
         width: 42.5vh;

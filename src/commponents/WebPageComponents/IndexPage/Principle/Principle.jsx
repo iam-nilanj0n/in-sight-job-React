@@ -1,8 +1,8 @@
 import React from 'react';
 import './Principle.css';
-import Knowledge from '../../../../assets/Knowledge.svg';
-import Honest from '../../../../assets/Honest.svg';
-import Specialist from '../../../../assets/Specialist.svg';
+import Knowledge from '../../../../assets/Knowledge.png';
+import Honest from '../../../../assets/Honest.png';
+import Specialist from '../../../../assets/Specialist.png';
 
 export default function Principle() {
     return (
@@ -22,9 +22,38 @@ export default function Principle() {
                         <p>principles are crucial.</p>
                     </div>
                 </div>
-                <img src={Knowledge} alt='knowledgePic' />
-                <img src={Specialist} alt='specialistePic' />
-                <img src={Honest} alt='honestPic' />
+
+                <div className='Img-Container'>
+                    <b className='Img-Container-Heading'>Knowledgable</b>
+                    <div className='Img-Container-Div'>
+                        <img src={Knowledge} alt='knowledgePic' className='knowledgePic' />
+                    </div>
+                    <div className='Img-Container-P'>
+                        <p style={{margin:'-2vh 0 0 0'}}>We do as we say, we give.</p>
+                    </div>
+                </div>
+
+                <div className='Img-Container'>
+                    <b className='Img-Container-Heading'>Specialists</b>
+                    <div className='Img-Container-Div' >
+                        <img src={Specialist} alt='specialistePic' className='specialistePic' />
+                    </div>
+                    <div className='Img-Container-P'>
+                        <p>We adapt to your requirements,</p>
+                        <p>we go beyond.</p>
+                    </div>
+                </div>
+
+                <div className='Img-Container'>
+                    <b className='Img-Container-Heading'>Honest</b>
+                    <div className='Img-Container-Div'>
+                        <img src={Honest} alt='honestPic' className='honestPic' />
+                    </div>
+                    <div className='Img-Container-P'>
+                        <p>We are a dependable and</p>
+                        <p>trustworthy partner.</p>
+                    </div>
+                </div>
             </section>
         </main>
     )
