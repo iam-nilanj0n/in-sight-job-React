@@ -206,6 +206,12 @@ header section {
     color: #AEAEAE;
 }
 
+
+.whatInput:focus,
+.whereInput:focus,
+.experienceInput:focus{
+    outline: 0px;
+}
 .searchNowButton {
     padding: 10px 2.5vw;
     font-weight: bolder;

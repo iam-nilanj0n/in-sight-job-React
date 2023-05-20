@@ -18,22 +18,22 @@
 
 .candidateLeftSection p {
     color: white;
-    font-size: 1.4rem;
+    font-size: 26.23px;
     font-weight: bolder;
-    word-spacing: 3px;
+    word-spacing: 1px;
 }
 
 .candidateSeparate {
     height: 40vh;
     width: 1px;
     background-color: white;
-    margin: 0 3.5vw;
+    margin: 0 4vw 0 3vw;
 }
 
 .candidatePart p,
 .employerPart p {
     color: white;
-    font-size: 0.9rem;
+    font-size: 14.57px;
     line-height: 1.5rem;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .employerPart {
-    margin-left: 10vw;
+    margin-left: 12vw;
 }
 
 /* responsive for width 1920px */
@@ -67,6 +67,10 @@
         font-size: 36px;
     }
 
+    .candidateSeparate {
+        margin: 0 3vw 0 2.5vw;
+    }
+
     .candidatePart p,
     .employerPart p {
         font-size: 20px;
@@ -74,24 +78,27 @@
     }
 
     .employerPart {
-        margin-left: 6vw;
+        margin-left: 7.55vw;
     }
 }
 
 /* responsive for width 1440px */
 @media(width=1440px) {
     .candidateLeftSection p {
-        font-size: 1.4rem;
+        font-size: 27px;
     }
 
     .candidatePart p,
     .employerPart p {
-        font-size: 0.9rem;
+        font-size: 15px;
         line-height: 1.5rem;
+    }
+    .candidateSeparate {
+        margin: 0 4vw 0 2.5vw;
     }
 
     .employerPart {
-        margin-left: 10vw;
+        margin-left: 6.5vw;
     }
 }
 

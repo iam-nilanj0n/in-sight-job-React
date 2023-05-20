@@ -18,7 +18,7 @@
 }
 
 .MadeEasySectionLeftPart p {
-    font-size: 1.4rem;
+    font-size: 26.23px;
     color: #333333;
     font-weight: bolder;
 }
@@ -32,12 +32,12 @@
 }
 
 .MadeEasySectionRightPart div p {
-    font-size: 0.85rem;
+    font-size: 11.66px;
     font-weight: 300;
 }
 
 .MadeEasySectionRightPartHeading {
-    font-size: 1em;
+    font-size: 11.66px;
     font-weight: bolder;
     color: #0A66C2;
     margin-bottom: 4vh;
@@ -46,10 +46,10 @@
 }
 
 .bold {
-    font-size: 1em;
+    font-size: 11.66px;
     font-weight: bolder;
     color: #0A66C2;
-    margin-bottom: 0.8vh;
+    margin-bottom: 1.35vh;
     display: flex;
     flex-direction: column;
 }
@@ -62,7 +62,7 @@
     height: 40vh;
     width: 1px;
     background-color: #aaaaaa;
-    margin: 0 6vw 0 7.15vw;
+    margin: 0 4vw 0 8.35vw;
 }
 
 .MadeEasySection section .inJobsightButton {
@@ -76,7 +76,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 10.6vw;
+    margin-left: 13vw;
 }
 
 .greaterThan {
@@ -95,7 +95,7 @@
     }
 
     .MadeEasySectionSeparater {
-        margin: 0 6vw 0 8.6vw;
+        margin: 0 3vw 0 8.35vw;
     }
 
     .MadeEasySectionRightPartHeading,
@@ -111,7 +111,7 @@
     }
     .MadeEasySection section .inJobsightButton {
         font-size: 20px;
-        margin-left: 4.2vw;
+        margin-left: 7.35vw;
     }
 }
 
@@ -123,15 +123,15 @@
     }
 
     .MadeEasySectionLeftPart p {
-        font-size: 1.4rem;
+        font-size: 27px;
     }
 
     .MadeEasySectionSeparater {
-        margin: 0 6vw 0 7.45vw;
+        margin: 0 4vw 0 8.35vw;
     }
 
     .MadeEasySectionRightPart div p {
-        font-size: 0.85rem;
+        font-size: 15px;
     }
 
     .MadeEasySectionRightPartMiddle {
@@ -140,12 +140,12 @@
 
     .MadeEasySectionRightPartHeading,
     .bold {
-        font-size: 0.95rem;
+        font-size: 15px;
     }
 
     .MadeEasySection section .inJobsightButton {
         font-size: 0.85rem;
-        margin: 0 0 0 7.35vw;
+        margin: 0 0 0 4.25vw;
     }
 }
 
@@ -162,7 +162,7 @@
     }
 
     .MadeEasySectionSeparater {
-        margin: 0 4vw 0 9vw;
+        margin: 0 4vw 0 8.5vw;
     }
 
     .MadeEasySectionRightPart div p {
@@ -196,7 +196,7 @@
         height: 6vh;
         width: auto;
         border-radius: 3vh;
-        margin-left: 5.85vw;
+        margin-left: 6.35vw;
     }
 
     .greaterThan {
@@ -228,7 +228,7 @@
 
     .MadeEasySectionSeparater {
         width: 1px;
-        margin: 0 6.5vw 0 10vw;
+        margin: 0 6vw 0 10.75vw;
     }
 
     .MadeEasySectionRightPartHeading,
@@ -246,7 +246,7 @@
         border: 0;
         height: 5vh;
         border-radius: 2.5vh;
-        margin-left: 13.85vw;
+        margin-left: 13.5vw;
     }
 
     .greaterThan {

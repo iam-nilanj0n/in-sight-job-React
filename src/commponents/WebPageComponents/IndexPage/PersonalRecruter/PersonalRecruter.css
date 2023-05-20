@@ -18,7 +18,7 @@
 }
 
 .PersonalRecruterLeftPart p {
-    font-size: 1.4rem;
+    font-size: 26.23px;
     color: #333333;
     font-weight: bolder;
 }
@@ -27,9 +27,11 @@
     height: 40vh;
     width: 1px;
     background-color: #aaaaaa;
-    margin: 0 6vw 0 2vw;
+    margin: 0 4vw 0 2.3vw;
 }
-
+.PersonalRecruterRightPart p {
+    font-size: 14.57px;
+}
 .PersonalRecruter section .inJobsightButton {
     background-color: #F6E75C;
     padding: 3vh 2vw;
@@ -41,7 +43,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 17.8vw;
+    margin-left: 19.4vw;
 }
 
 .greaterThan {
@@ -54,17 +56,21 @@
         height: auto;
         /* border: 1px solid black; */
     }
-    .PersonalRecruterLeftPart p{
+
+    .PersonalRecruterLeftPart p {
         font-size: 36px;
     }
 
-    .PersonalRecruterRightPart p{
+    .PersonalRecruterRightPart p {
         font-size: 20px;
     }
+    .PersonalRecruterSeparater {
+        margin: 0 3vw 0 1.75vw;
+    }
 
-    .PersonalRecruter section .inJobsightButton{
+    .PersonalRecruter section .inJobsightButton {
         font-size: 20px;
-        margin-left: 12.1vw;
+        margin-left: 15.35vw;
     }
 }
 
@@ -79,16 +85,22 @@
         margin: 0 0 0 14.55vw;
     }
 
-    .PersonalRecruterLeftPart p {
-        font-size: 1.4rem;
+    .PersonalRecruterSeparater {
+        margin: 0 3vw 0 1.75vw;
     }
-    .PersonalRecruterRightPart p {
-        font-size: 0.9rem;
+    
+
+    .PersonalRecruterLeftPart p {
+        font-size: 27px;
     }
 
-    .PersonalRecruter section .inJobsightButton{
+    .PersonalRecruterRightPart p {
+        font-size: 15px;
+    }
+
+    .PersonalRecruter section .inJobsightButton {
         font-size: 0.85rem;
-        margin-left: 17vw;
+        margin-left: 16.35vw;
     }
 }
 
@@ -118,7 +130,7 @@
         height: 40vh;
         width: 1px;
         background-color: #aaaaaa;
-        margin: 0 4vw 0 2vw;
+        margin: 0 4vw 0 1.35vw;
     }
 
     .PersonalRecruter section .inJobsightButton {
@@ -158,7 +170,7 @@
     }
 
     .PersonalRecruterSeparater {
-        margin: 0 6.5vw 0 1vw;
+        margin: 0 6vw 0 1.5vw;
     }
 
     .PersonalRecruterRightPart p {
