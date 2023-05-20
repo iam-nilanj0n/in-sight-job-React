@@ -316,7 +316,7 @@ header section {
 }
 
 /* responsive for 1440px is here */
-@media(width=1440px) {
+@media(width<=1440px){
     header section {
         height: auto;
         /* border: 1px solid black; */
@@ -576,7 +576,7 @@ header section {
     .whereInput,
     .experienceInput {
         width: 23vw;
-        padding: 1vh 2vw 1vh 2vw;
+        padding: 0 2vw 0 2vw;
     }
 
     .Experience label,
@@ -687,7 +687,7 @@ header section {
     .experienceInput {
         width: 50vw;
         font-size: 0.75rem;
-        padding: 1vh 2vw;
+        padding: 0 2vw;
     }
 
     .What label,
@@ -722,6 +722,7 @@ header section {
     .whatInput,
     .whereInput,
     .experienceInput {
+        padding: 0 2vw;
         width: 55vw;
     }
 
@@ -765,6 +766,7 @@ header section {
     .whatInput,
     .whereInput,
     .experienceInput {
+        padding: 0 2vw;
         width: 65vw;
     }
 

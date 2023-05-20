@@ -2,21 +2,15 @@ import React from 'react';
 import './HeaderComponent.css';
 import logo from '../../../assets/Logo.svg';
 import { useState } from 'react';
-import Menu, { MenuContext } from './menu/FindjobsMenu';
+import FindjobsMenu, { FindJobMenuContext } from './FindjobsMenu/FindjobsMenu';
+import ForCompanyMenu, { ForCompanyMenuContext } from './ForCompanyMenu/ForCompanyMenu';
 import { useNavigate } from 'react-router-dom';
 
 
 export default function HeaderComponent({ HeaderPositionAt }) {
     const navigate = useNavigate();
-    const [showMenu, setShowMenu] = useState(false);
-
-    const handleMenuClick = () => {
-        setShowMenu(true);
-    };
-
-    const handleLeave = () => {
-        setShowMenu(false);
-    }
+    const [showFindJobMenu, setShowFindJobMenu] = useState(false);
+    const [showForCompanyMenu, setShowForCompanyMenu] = useState(false)
 
     return (
         <>
@@ -27,15 +21,23 @@ export default function HeaderComponent({ HeaderPositionAt }) {
                             {/* <FindJobModal jobMenuDisplay={jobMenuDisplay}/> */}
                             <img src={logo} alt='logoPic' onClick={(e) => navigate('/')} className='logoPic' />
                             <div className='findJobs'>
-                                <MenuContext.Provider value={showMenu}>
+                                <FindJobMenuContext.Provider value={showFindJobMenu}>
                                     <span
-                                        onMouseEnter={handleMenuClick}
-                                        onMouseLeave={handleLeave}>
+                                        onMouseEnter={(e) => setShowFindJobMenu(true)}
+                                        onMouseLeave={(e) => setShowFindJobMenu(false)}>
                                         FIND JOBS
-                                        <Menu />
+                                        <FindjobsMenu />
                                     </span>
-                                </MenuContext.Provider>
-                                <span>FOR COMPANY</span>
+                                </FindJobMenuContext.Provider>
+
+                                <ForCompanyMenuContext.Provider value={showForCompanyMenu}>
+                                    <span
+                                        onMouseEnter={(e) => setShowForCompanyMenu(true)}
+                                        onMouseLeave={(e) => setShowForCompanyMenu(false)}>
+                                        FOR COMPANY
+                                        <ForCompanyMenu />
+                                    </span>
+                                </ForCompanyMenuContext.Provider>
                             </div>
                         </div>
                         <div className='rightLogoSection'>
@@ -60,15 +62,23 @@ export default function HeaderComponent({ HeaderPositionAt }) {
                                     {/* <FindJobModal jobMenuDisplay={jobMenuDisplay}/> */}
                                     <img src={logo} alt='logoPic' onClick={(e) => navigate('/')} className='logoPic' />
                                     <div className='findJobs'>
-                                        <MenuContext.Provider value={showMenu}>
+                                        <FindJobMenuContext.Provider value={showFindJobMenu}>
                                             <span
-                                                onMouseEnter={handleMenuClick}
-                                                onMouseLeave={handleLeave}>
+                                                onMouseEnter={(e) => setShowFindJobMenu(true)}
+                                                onMouseLeave={(e) => setShowFindJobMenu(false)}>
                                                 FIND JOBS
-                                                <Menu />
+                                                <FindjobsMenu />
                                             </span>
-                                        </MenuContext.Provider>
-                                        <span>FOR COMPANY</span>
+                                        </FindJobMenuContext.Provider>
+
+                                        <ForCompanyMenuContext.Provider value={showForCompanyMenu}>
+                                            <span
+                                                onMouseEnter={(e) => setShowForCompanyMenu(true)}
+                                                onMouseLeave={(e) => setShowForCompanyMenu(false)}>
+                                                FOR COMPANY
+                                                <ForCompanyMenu />
+                                            </span>
+                                        </ForCompanyMenuContext.Provider>
                                     </div>
                                 </div>
 

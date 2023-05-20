@@ -1,0 +1,92 @@
+.ForCompanyMenu-Container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin: 0 0 0 0;
+    z-index: +4;
+}
+
+.ForCompanyMenu {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 130px;
+    height: auto;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: +5;
+    font-family: 'Poppins';
+    margin: 15px 0 0 0;
+    padding: 3vh 3vh 2vh 3vh;
+}
+
+.ForCompanyMenu-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.ForCompanyMenu-column p{
+    font-size: 15px;
+    margin-bottom: 1vh;
+    color: black;
+    font-weight: 400;
+}
+
+
+
+/* reponsive work starts from here */
+
+/* responsive for width 1920px */
+
+@media (width=1920px) {
+    .ForCompanyMenu {
+        width: 178.4px;
+        height: auto;
+    }
+
+    .ForCompanyMenu-column p {
+        font-size: 20px;
+    }
+}
+
+
+/* responsive for 1440px */
+@media(width=1440px) {
+    .ForCompanyMenu {
+        width: 133.8px;
+        height: auto;
+    }
+
+    .ForCompanyMenu-column p {
+        font-size: 15px;
+    }
+
+}
+
+
+/* responsive for width 1024px */
+@media (width=1024px) {
+    .ForCompanyMenu {
+        width: 95.15px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .ForCompanyMenu-column p {
+        font-size: 10.67px;
+        margin-bottom: 1vh;
+    }
+
+}

@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import './FindjobsMenu.css';
 
-const MenuContext = React.createContext(false);
+const FindJobMenuContext = React.createContext(false);
 
-function Menu() {
-  const showMenu = useContext(MenuContext);
+function FindjobsMenu() {
+  const showMenu = useContext(FindJobMenuContext);
 
   return (
     <span className="menu-container">
@@ -52,5 +52,5 @@ function Menu() {
   );
 }
 
-export default Menu;
-export { MenuContext };
+export default FindjobsMenu;
+export { FindJobMenuContext };
