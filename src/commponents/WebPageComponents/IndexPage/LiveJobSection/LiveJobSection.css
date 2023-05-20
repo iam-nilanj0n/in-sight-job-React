@@ -203,7 +203,7 @@
 
 /* mobile responsive */
 
-@media (width<426px) {
+@media (width<427px) {
     .LiveJobSection {
         height: auto;
     }
@@ -234,7 +234,7 @@
     }
 }
 
-@media (width<321px) {
+@media (width<322px) {
     .candidates {
         margin-left: 13.5vw;
     }

@@ -133,7 +133,7 @@
 
 /* mobile responsive is here */
 
-@media (width<426px) {
+@media (width<427px) {
     .JobCard {
         margin: 0 19vw 2vh 0;
     }
@@ -157,7 +157,7 @@
     }
 }
 
-@media (width<321px) {
+@media (width<322px) {
     .JobCard {
         margin: 0 3vw 0 0;
     }

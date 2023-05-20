@@ -152,7 +152,7 @@
 
 /* mobile responsive is here */
 
-@media(width<426px) {
+@media(width<427px) {
     .CandidateEmployerSection section {
         height: auto;
         width: auto;
@@ -191,7 +191,7 @@
     }
 }
 
-@media(width<321px) {
+@media(width<322px) {
     .candidateLeftSection p {
         font-size: 0.8rem;
     }

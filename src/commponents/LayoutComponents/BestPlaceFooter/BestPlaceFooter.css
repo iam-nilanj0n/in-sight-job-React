@@ -297,7 +297,7 @@
 }
 
 /* mobile responsive is here */
-@media (width<426px) {
+@media (width<427px) {
     .BestPlaceFooter section {
         height: auto;
         width: auto;

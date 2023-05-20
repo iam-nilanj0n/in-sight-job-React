@@ -257,7 +257,7 @@
 
 /* mobile responsive is here */
 
-@media (width<426px) {
+@media (width<427px) {
     .MadeEasySection section {
         width: auto;
         height: auto;

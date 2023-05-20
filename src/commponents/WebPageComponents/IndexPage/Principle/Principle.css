@@ -332,7 +332,7 @@
 
 /* mobile responsive is here */
 
-@media (width<426px) {
+@media (width<427px) {
     .Principle section {
         width: auto;
         margin: 16px;
@@ -390,7 +390,7 @@
     }
 }
 
-@media (width<376px) {
+@media (width<377px) {
     .Principle section .Img-Container {
         margin: 0;
         height: 50.5vh;
@@ -400,7 +400,7 @@
 }
 
 
-@media (width<321px) {
+@media (width<322px) {
     .Principle section .Img-Container {
         margin: 0;
         height: 42.5vh;

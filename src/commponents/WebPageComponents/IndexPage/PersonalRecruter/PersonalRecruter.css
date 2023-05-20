@@ -183,7 +183,7 @@
 
 /* mobile responsive is here */
 
-@media (width<426px) {
+@media (width<427px) {
     .PersonalRecruter section {
         margin: 7vh 16px 7vh 16px;
         display: flex;

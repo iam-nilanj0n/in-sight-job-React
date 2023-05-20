@@ -594,7 +594,7 @@ header section {
 
 /* mobile responsive is here */
 
-@media (width<426px) {
+@media (width<427px) {
     .JobSearchHeader {
         height: auto;
     }
@@ -711,7 +711,7 @@ header section {
     }
 }
 
-@media(width<376px) {
+@media(width<377px) {
 
     .whatInput,
     .whereInput,
@@ -728,7 +728,7 @@ header section {
     }
 }
 
-@media(width<321px) {
+@media(width<322px) {
     .logoPic {
         width: 35vw;
     }
