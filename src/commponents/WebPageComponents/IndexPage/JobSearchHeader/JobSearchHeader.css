@@ -11,7 +11,7 @@ header section {
     margin: 1.5vh 0 5vh 10vw;
     background-color: #0A66C2;
     /* margin: 5vh 0 5vh 11vw; */
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .logoSection {
@@ -213,7 +213,7 @@ header section {
     outline: 0px;
 }
 .searchNowButton {
-    padding: 10px 2.5vw;
+    padding: 10px 3vw;
     font-weight: bolder;
     color: black;
     background-color: #F6E75C;
@@ -222,7 +222,11 @@ header section {
     border-radius: 3vh;
     font-size: 0.8rem;
     width: auto;
-    margin: 0 0 0 5.8vw;
+    margin: 0 0 0 4.2vw;
+}
+
+.searchNowButton:hover{
+    cursor: pointer;
 }
 
 /* differentJobs section is here */
@@ -301,9 +305,9 @@ header section {
 
     .searchNowButton {
         height: 51px;
-        width: 237px;
+        width: 225px;
         font-size: 16px;
-        margin-left: 1.55vw;
+        margin-left: 2.2vw;
     }
 
     .differentJobs {
@@ -354,7 +358,7 @@ header section {
         height: 5vh;
         border-radius: 2.5vh;
         font-size: 0.8rem;
-        margin: 0 0 0 5.5vw;
+        margin: 0 0 0 4.8vw;
     }
 
     .rightLogoSection p {

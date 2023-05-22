@@ -1,0 +1,55 @@
+.JobCardLeftAside {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1.46px solid #ABABAB;
+    margin-bottom: 1vh;
+}
+
+.JobCardLeftAside .jobCardLogo {
+    height: 28.42px;
+    width: 28.42px;
+    margin: 0.5vh 0.5vw 0 0;
+}
+
+.JobCardLeftAside-Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.JobCardLeftAside-Div-Top-Heading {
+    font-size: 14.57px;
+    font-weight: bolder;
+}
+
+.JobCardLeftAside-Div-Top-SubHeading{
+    font-size: 11.66px;
+}
+
+/* JobCardLeftAside-Div-Bottom is here */
+.JobCardLeftAside-Div-Bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1vh 0;
+    /* border: 1px solid black; */
+}
+
+.JobCardLeftAside-Div-Bottom .noteIcon{
+    height: 19.67px;
+    width: 19.67px;
+}
+
+.JobCardLeftAside-Div-Bottom p{
+    font-size: 8.74px;
+    color: #888888;
+}
+
+.jobPost-Time{
+    margin-left: 12vw;
+}

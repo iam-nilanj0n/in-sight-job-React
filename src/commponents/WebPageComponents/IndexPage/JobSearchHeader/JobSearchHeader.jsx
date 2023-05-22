@@ -1,11 +1,11 @@
 import React from 'react';
 import './JobSearchHeader.css';
 import HeaderComponent from '../../../LayoutComponents/HeaderComponent/HeaderComponent';
-// 
+import { useNavigate } from 'react-router-dom';
 
 
 export default function JobSearchHeader() {
-
+    const navigate = useNavigate()
     return (
         <>
             <header className='JobSearchHeader'>
@@ -57,7 +57,7 @@ export default function JobSearchHeader() {
                                 placeholder='City Of Region'
                             />
                         </div>
-                        <button className='searchNowButton'>Search Now</button>
+                        <button className='searchNowButton' onClick={(e)=>navigate('/searchResult')}>SEARCH NOW</button>
                     </div>
                     {/* Bottom Diffrent types of Jobs are here */}
                     <div className='differentJobs'>
