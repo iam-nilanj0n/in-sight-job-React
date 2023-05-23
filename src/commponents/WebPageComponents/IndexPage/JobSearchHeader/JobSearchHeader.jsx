@@ -14,12 +14,11 @@ export default function JobSearchHeader() {
                     <HeaderComponent HeaderPositionAt={'IndexPage'} />
                     {/* Main Heading Section is here */}
                     <div className='headingSection'>
-                        <p className='heading1'>
+                        <h1 className='heading1'>
                             <span>AUTOMATIC</span> APPLYING TO JOB IS
-                        </p>
-                        <p className='heading1 heading1Bottom'>
+                        <br/>
                             STRESSFUL EFFORTLESSLY
-                        </p>
+                        </h1>
                         <p className='heading2'>
                             Our passion is to research and select talents and qualified personnel for our Clients and to find the job you are passionate about
                         </p>
